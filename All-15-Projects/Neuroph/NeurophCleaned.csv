@@ -1,0 +1,25 @@
+Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,Role Stereotypes ,Agreed?,Comment
+.org.neuroph.core.Weight,3,8,8,2,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,Information Holder,,
+.org.neuroph.core.Neuron,6,25,24,6,12,0,0,4,5,0,0,2,0,0,0,0,2,4,3,0,0,31,9,Interfacer,"No, Structurer",If the NumOps and NumPubOps is more that means it's an interfacer
+.org.neuroph.core.NeuralNetwork,7,39,39,6,11,0,0,16,16,0,0,1,0,0,0,0,1,2,6,0,0,25,18,Interfacer,"No, Structurer",If the NumOps and NumPubOps is more that means it's an interfacer
+.org.neuroph.core.Connection,1,4,4,0,4,0,0,1,1,0,0,1,0,0,0,0,2,2,1,0,0,5,2,Coordinator,,The name connection determines its label
+.org.neuroph.core.Layer,2,15,15,2,5,0,0,1,1,0,0,1,0,0,0,0,2,2,0,0,0,26,8,Interfacer,"No, Structurer",If the NumOps and NumPubOps is more that means it's an interfacer
+.org.neuroph.core.input.InputFunction,1,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,2,2,Service Provider,,
+.org.neuroph.core.input.WeightsFunction,0,2,2,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,2,0,Service Provider,,
+.org.neuroph.core.input.SummingFunction,0,2,2,0,1,0,0,8,8,0,0,1,0,0,0,0,1,1,0,0,0,2,0,Service Provider,,
+.org.neuroph.core.learning.IterativeLearning,5,6,6,2,2,0,0,2,14,1,1,5,9,2,0,0,0,0,0,0,0,0,2,Interfacer,"No, Service Provider","NumDesc is more, and numOps, numPubOps are more as well, so this class is acting like an interfacer or Service Provider"
+.org.neuroph.core.learning.TrainingSet,4,17,17,2,3,0,0,0,0,0,0,0,0,0,0,0,1,1,5,0,0,32,2,Interfacer,,
+.org.neuroph.core.learning.SupervisedTrainingElement,2,2,2,1,1,0,0,0,0,1,1,0,4,3,0,0,0,0,0,0,0,2,0,Service Provider,,
+.org.neuroph.core.learning.TrainingElement,3,4,4,2,2,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,4,0,Coordinator,,
+.org.neuroph.core.learning.UnsupervisedLearning,1,3,1,0,0,0,0,2,6,2,2,2,15,7,0,0,0,0,0,0,0,0,2,Service Provider,"No, Information Holder",
+.org.neuroph.core.learning.LearningRule,2,9,8,2,3,0,0,3,17,0,0,6,0,0,0,0,1,2,0,0,0,4,5,Interfacer,Yes,"NumDesc is more, and numOps, numPubOps are more as well, so this class is acting like an interfacer or Service Provider"
+.org.neuroph.core.learning.SupervisedLearning,3,7,3,1,2,0,0,1,6,2,2,4,15,7,0,0,0,0,0,0,0,0,2,Service Provider,"No, Information Holder",
+.org.neuroph.core.transfer.TransferFunction,1,3,3,0,2,0,0,9,9,0,0,1,0,0,0,0,0,1,0,0,0,3,0,Service Provider,,
+.org.neuroph.nnet.learning.BackPropagation,1,3,0,0,0,0,0,1,1,5,5,1,27,12,0,0,0,0,0,0,0,0,1,Service Provider,,
+.org.neuroph.nnet.learning.OjaLearning,1,1,0,0,0,0,0,0,0,4,4,0,21,9,0,0,0,0,0,0,0,0,1,Service Provider,,
+.org.neuroph.nnet.learning.SigmoidDeltaRule,1,2,0,0,0,0,0,1,2,4,4,2,25,11,0,0,0,0,0,0,0,0,0,Service Provider,,
+.org.neuroph.nnet.learning.LMS,1,3,0,0,0,0,0,3,5,3,3,3,22,10,0,0,0,0,0,0,0,0,1,Structurer,,
+.org.neuroph.nnet.learning.UnsupervisedHebbianLearning,1,3,1,0,0,0,0,4,4,3,3,1,18,8,0,0,0,0,0,0,0,0,2,Service Provider,,
+.org.neuroph.nnet.learning.MomentumBackpropagation,2,3,2,1,1,0,0,0,0,6,6,0,30,13,0,0,0,0,0,0,0,0,1,Service Provider,,
+.org.neuroph.nnet.learning.SupervisedHebbianLearning,1,3,0,0,0,0,0,0,0,4,4,0,25,11,0,0,0,0,0,0,0,0,2,Service Provider,,
+.org.neuroph.nnet.learning.CompetitiveLearning,1,2,1,0,0,0,0,0,0,3,3,0,18,8,0,0,0,0,0,0,0,0,1,Service Provider,,
