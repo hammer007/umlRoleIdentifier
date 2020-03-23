@@ -1,0 +1,14 @@
+Class Name ,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotype,Agree?
+UML Model.Logical View.Order,5,7,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,2,0,0,0,0,0,0,0,0,0,Information Holder,Yes
+UML Model.Logical View.Customer,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer,Yes
+UML Model.Logical View.Employee,2,0,0,0,0,0,0,2,7,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer,Yes
+UML Model.Logical View.MenuItem,2,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Information Holder,Yes
+UML Model.Logical View.Topping,1,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider,Yes
+UML Model.Logical View.BaseItem,2,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+UML Model.Logical View.FunctionalEmployee,0,2,2,0,0,0,0,2,2,1,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Coordinator,Yes
+UML Model.Logical View.PerformanceEmployee,0,1,1,0,0,0,0,3,3,1,1,1,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Coordinator,Yes
+UML Model.Logical View.Manager,0,2,2,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Controller,"No, Information Holder"
+UML Model.Logical View.Cashier,0,0,0,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+UML Model.Logical View.Cook,0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+UML Model.Logical View.Prep,0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+UML Model.Logical View.Delivery,0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"

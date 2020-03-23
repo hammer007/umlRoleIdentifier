@@ -1,0 +1,13 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotypes
+UML Model.Logical View.objectcourseend.SmartPostManager,10,15,12,1,6,0,0,0,0,1,1,0,0,0,2,0,2,2,0,0,3,0,2,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.objectcourseend.ObjectCourseEnd,3,2,2,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,2,0,1,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.objectcourseend.SaxXML,4,6,6,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.objectcourseend.FXMLMainControl,12,10,1,0,0,0,0,0,0,1,1,0,0,0,0,0,3,3,0,0,10,0,11,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.objectcourseend.FXMLPackagesControl,9,3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,5,0,4,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.objectcourseend.Class_3,0,2,2,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.objectcourseend.Class_1,0,2,2,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.objectcourseend.Class_2,0,1,1,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.objectcourseend.AbstractPackage,6,4,4,0,0,0,0,3,3,0,0,1,0,0,0,2,0,0,0,0,3,4,3,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.objectcourseend.Item,5,4,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.objectcourseend.SmartPost,6,7,6,0,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,1,9,3,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.objectcourseend.Storage,1,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,Information Holder

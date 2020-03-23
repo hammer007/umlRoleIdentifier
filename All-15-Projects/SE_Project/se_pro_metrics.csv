@@ -1,0 +1,31 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotype,Agree?
+untitledModel.User,6,7,6,0,1,0,0,2,2,0,0,1,0,0,0,0,6,6,0,0,3,3,0,0,0,0,0,0,0,0,0,0,Interfacer,"No, Controller"
+untitledModel.NormalUser,0,1,1,0,0,0,0,0,0,1,1,0,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.PremiumUser,1,1,1,0,0,0,0,0,0,1,1,0,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.GroupPrivacy,1,1,1,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,Interfacer,Yes
+untitledModel.PublicPrivacy,1,2,2,1,1,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.ClosedPrivacy,0,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.IGroup,1,4,4,2,0,0,0,1,1,0,0,1,0,0,0,0,3,3,0,0,1,1,1,0,0,0,0,0,0,0,0,0,Interfacer,"No, Coordinator"
+untitledModel.Group,3,3,3,1,0,0,0,0,0,1,1,0,4,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Coordinator,Yes
+untitledModel.Message,0,2,2,0,0,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer,Yes
+untitledModel.ChatMessage,1,1,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.GroupChatMessage,2,1,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.Post,1,1,1,0,0,0,0,3,6,0,0,2,0,0,0,0,2,2,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Interfacer,"No, Information Holder"
+untitledModel.UserPost,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.PagePost,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.PrivacyPost,1,3,3,1,0,0,0,3,3,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.PublicPost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.PrivatePost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.CustomPrivacyPost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.IPage,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer,Yes
+untitledModel.Page,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.Timeline,0,1,1,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer,Yes
+untitledModel.PublicTimeline,0,2,2,0,2,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.ProfileTimeline,0,1,1,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
+untitledModel.UserModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Structurer,Yes
+untitledModel.PageModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Structurer,Yes
+untitledModel.GroupModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Structurer,Yes
+untitledModel.MessageModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Structurer,Yes
+untitledModel.PostModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Structurer,Yes
+untitledModel.IHashtag,0,3,3,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer,"No, Information Holder"
+untitledModel.Hashtag,0,3,3,0,0,0,0,0,0,1,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider,"No, Information Holder"
