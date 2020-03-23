@@ -1,0 +1,16 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotype
+UML.Logical View.Talon,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML.Logical View.Product,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.state,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.Contract,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.Department,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.amount,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.User,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.Role,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.Organization,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.Customer,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.Price,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+ UML.Logical View.Talon::issue,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+ UML.Logical View.Talon::repaid,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+ UML.Logical View.Talon::Operation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML.Logical View.Product::Operation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider
