@@ -1,0 +1,43 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotypes
+UML Model.Logical View.AbstractBaseObject,4,1,1,0,0,0,1,4,34,0,0,5,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.AbstractAuditableObject,1,0,0,0,0,0,1,22,28,2,2,3,2,9,0,0,2,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.AbstractPlate,1,1,1,0,0,0,1,2,2,4,4,1,4,23,0,1,1,1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.AbstractSample,2,0,0,0,0,0,0,3,3,3,3,1,2,10,0,0,1,1,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.User,2,0,0,0,0,0,0,0,0,3,3,0,3,14,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.Measurement,3,2,2,0,0,0,0,0,0,4,4,0,4,21,0,0,2,2,0,1,3,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.Result,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.ResultType,1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.AbstractAnnotatableObject,1,0,0,0,0,0,1,1,29,1,1,4,1,4,0,0,2,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.AbstractAnnotationInstance,2,0,0,0,0,0,0,3,3,1,1,1,1,4,0,0,3,3,0,1,2,1,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.FloatAnnotation,1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.TextAnnotation,1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.EnumAnnotation,1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.AuditLog,5,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.Instrument,1,1,1,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.SampleContainer,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.DrugSample,2,1,1,0,0,0,0,0,0,4,4,0,2,12,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.CellSample,2,1,1,0,0,0,0,0,0,4,4,0,2,12,0,0,1,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.DrugOrigin,3,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.SampleMarker,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.WorkList,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.AbstractOperation,1,0,0,0,0,0,0,1,1,3,3,1,2,10,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.PlateLayout,2,2,2,0,0,0,1,0,0,4,4,0,4,23,2,1,0,0,0,2,2,3,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.PlateType,4,0,0,0,0,0,0,0,0,3,3,0,2,10,2,0,0,0,0,2,2,3,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.LayoutWell,2,2,2,0,0,0,1,0,0,4,3,0,2,13,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.LayOutMarker,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.Well,4,2,2,0,0,0,1,0,0,4,3,0,2,13,0,0,2,2,0,3,3,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.CellOrigin,1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.MasterPlate,1,1,1,0,0,0,0,0,0,5,5,0,5,24,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.Annotation,2,1,1,0,0,0,0,0,0,3,3,0,2,10,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.PlateFunction,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.WellFunction,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.AbstractWell,3,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.AbstractBasePlate,3,0,0,0,0,0,0,2,4,3,3,2,2,10,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.Plate,2,0,0,0,0,0,0,0,0,5,5,0,5,24,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.Folder,1,0,0,0,0,0,0,3,3,3,3,1,2,10,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.UniqueFolder,1,0,0,0,0,0,0,0,0,4,4,0,2,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.PickList,2,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.Picking,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.ExportScript,3,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.PatientSample,1,0,0,0,0,0,0,0,0,4,4,0,2,12,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.PatientOrigin,1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Coordinator

@@ -1,0 +1,34 @@
+Class,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotype
+UML Model.Logical View.cl.utfsm.acs.acg.core.DAOManager,3,4,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,Interfacer
+UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmSystemManager,6,5,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,4,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.cl.utfsm.acs.acg.core.CategoriesManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.cl.utfsm.acs.acg.core.SourcesManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.cl.utfsm.acs.acg.core.ReductionsManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.com.cosylab.acs.laser.dao.ACSCategoryDAOImpl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.com.cosylab.acs.laser.dao.ACSSourceDAOImpl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Name,NumCls,NumCls_tc,NumOpsCls,NumInterf,R,H,Ca,Ce,I,A,D,DN,Nesting,ConnComp,Dep_Out,Dep_In,DepPack,StimSent_Outside,StimRecv_Outside,StimSent_within,MsgSent_Outside,MsgRecv_Outside,MsgSent_within,Diags,,,,,,,,,
+UML Model.Logical View.Datatypes,0,0,0,0,0,0,0,0,1,1,0.707107,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.cl.utfsm.acs.acg.core,6,6,13,0,19,3.3333333,0,3,1,0,0,0,4,1,0,0,1,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.cl.utfsm.acs.acg,0,6,0,0,0,0,0,0,1,1,0.707107,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.cl.utfsm.acs,0,6,0,0,0,0,0,0,1,1,0.707107,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.cl.utfsm,0,6,0,0,0,0,0,0,1,1,0.707107,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.cl,0,6,0,0,0,0,0,0,1,1,0.707107,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.com.cosylab.acs.laser.dao,3,3,0,0,0,0.33333334,1,0,0,0,-0.707107,1,4,3,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.com.cosylab.acs.laser,0,3,0,0,0,0,0,0,1,1,0.707107,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.com.cosylab.acs,0,3,0,0,0,0,0,0,1,1,0.707107,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.com.cosylab,0,3,0,0,0,0,0,0,1,1,0.707107,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+UML Model.Logical View.com,0,3,0,0,0,0,0,0,1,1,0.707107,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Name,NumOps,NumComp,NumPack,NumCls,NumInterf,ProvidedIF,RequiredIF,Dep_Out,Dep_In,Assoc_Out,Assoc_In,Instances,Objects,Diags,,,,,,,,,,,,,,,,,,,
+UML Model.Component View.new_component,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,

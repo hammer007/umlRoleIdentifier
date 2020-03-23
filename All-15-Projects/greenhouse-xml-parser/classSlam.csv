@@ -1,0 +1,9 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotypes
+UML Model.Logical View.Map,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.Robot,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Information Holder
+UML Model.Logical View.Landmark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Coordinator
+UML Model.Logical View.MapView,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.RobotView,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.LandmarkView,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider
+UML Model.Logical View.SlamController,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Controller
+UML Model.Logical View.EkfSlam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Service Provider

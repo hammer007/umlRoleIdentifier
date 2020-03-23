@@ -1,0 +1,13 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ObjInst,StimSent,StimRecv,StimSelf,ClassifInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotypes
+UML.Logical View.ua.plants.Main,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Controller
+UML.Logical View.ua.plants.generated.ObjectFactory,0,6,6,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,5,0,0,0,0,0,0,0,0,0,Interfacer
+UML.Logical View.ua.plants.generated.GreenHouse,1,4,4,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,4,3,0,0,0,0,0,0,0,0,0,Information Holder
+UML.Logical View.ua.plants.parser.dom.DOMParser,0,5,0,0,0,0,0,0,0,1,1,0,10,2,0,1,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,Service Provider
+UML.Logical View.ua.plants.parser.dom.DOMParserFactory,0,1,1,0,1,0,0,0,0,1,1,0,6,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Interfacer
+UML.Logical View.ua.plants.parser.sax.SAXParser,1,1,0,0,0,0,0,0,0,1,1,0,5,1,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Service Provider
+UML.Logical View.ua.plants.parser.sax.SAXParserFactory,0,1,1,0,1,0,0,0,0,1,1,0,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Interfacer
+UML.Logical View.ua.plants.parser.AbstractXMLParser,1,5,2,0,0,0,1,5,3,0,0,1,0,0,0,0,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,Service Provider
+UML.Logical View.ua.plants.parser.stax.StAXParser,0,1,0,0,0,0,0,0,0,1,1,0,10,2,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Service Provider
+UML.Logical View.ua.plants.parser.stax.StAXParserFactory,0,1,1,0,1,0,0,0,0,1,1,0,4,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Interfacer
+UML.Logical View.ua.plants.parser.XMLParserFactory,0,2,2,0,2,0,0,6,3,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Interfacer
+UML.Logical View.ua.plants.parser.XMLParser,2,0,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Interfacer
