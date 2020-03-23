@@ -1,0 +1,19 @@
+Class Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,Connectors,InstSpec,LLInst,MsgSent,MsgRecv,MsgSelf,Diags,Role Stereotypes
+Data.org.jgap.impl.AveragingCrossoverOperator,5,11,8,2,1,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,4,0,11,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.BestChromosomesSelector,6,11,10,2,2,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,4,0,5,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.BooleanGene,4,15,13,3,3,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,0,12,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.CrossoverOperator,3,8,6,1,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,2,0,12,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.DoubleGene,3,15,12,2,4,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,9,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.FixedBinaryGene,4,30,23,8,10,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,13,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.GaussianMutationOperator,3,7,5,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,0,7,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.IntegerGene,4,15,12,2,4,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,9,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.MutationOperator,3,11,10,1,2,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,3,0,12,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.impl.WeightedRouletteSelector,7,10,7,1,1,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,5,0,7,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.Chromosome,8,39,34,8,11,0,0,0,0,0,0,0,0,0,10,2,0,0,0,1,5,4,38,0,0,0,0,0,0,1,Information Holder
+Data.org.jgap.Configuration,49,57,51,14,23,0,0,0,0,0,0,0,0,0,22,43,0,0,0,13,13,92,44,0,0,0,0,0,0,1,Coordinator
+Data.org.jgap.FitnessFunction,3,3,2,0,2,0,0,0,0,0,0,0,0,0,2,5,0,0,0,3,1,7,2,0,0,0,0,0,0,1,Service Provider
+Data.org.jgap.Genotype,4,23,19,2,8,0,0,0,0,0,0,0,0,0,8,4,0,0,0,1,3,7,21,0,0,0,0,0,0,1,Information Holder
+Data.org.jgap.Population,6,30,24,4,6,0,0,0,0,0,0,0,0,0,9,22,0,0,0,2,4,36,25,0,0,0,0,0,0,1,Information Holder
+Data.org.jgap.Gene,18,3,68,11,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Interfacer
+Data.org.jgap.GeneticOperator,1,0,6,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Interfacer
+Data.org.jgap.INaturalSelector,3,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Interfacer
