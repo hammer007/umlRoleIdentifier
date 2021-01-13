@@ -1,0 +1,392 @@
+Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,ConfidenceLevel,Role Stereotypes
+.org.neuroph.core.Weight,3,8,8,2,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,five,one
+.org.neuroph.core.Neuron,6,25,24,6,12,0,0,4,5,0,0,2,0,0,0,0,2,4,3,0,0,31,9,five,two
+.org.neuroph.core.NeuralNetwork,7,39,39,6,11,0,0,16,16,0,0,1,0,0,0,0,1,2,6,0,0,25,18,three,two
+.org.neuroph.core.Connection,1,4,4,0,4,0,0,1,1,0,0,1,0,0,0,0,2,2,1,0,0,5,2,three,two
+.org.neuroph.core.Layer,2,15,15,2,5,0,0,1,1,0,0,1,0,0,0,0,2,2,0,0,0,26,8,five,two
+.org.neuroph.core.input.InputFunction,1,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,2,2,five,three
+.org.neuroph.core.input.WeightsFunction,0,2,2,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,2,0,five,three
+.org.neuroph.core.input.SummingFunction,0,2,2,0,1,0,0,8,8,0,0,1,0,0,0,0,1,1,0,0,0,2,0,five,three
+.org.neuroph.core.learning.IterativeLearning,5,6,6,2,2,0,0,2,14,1,1,5,9,2,0,0,0,0,0,0,0,0,2,five,three
+.org.neuroph.core.learning.TrainingSet,4,17,17,2,3,0,0,0,0,0,0,0,0,0,0,0,1,1,5,0,0,32,2,five,two
+.org.neuroph.core.learning.SupervisedTrainingElement,2,2,2,1,1,0,0,0,0,1,1,0,4,3,0,0,0,0,0,0,0,2,0,five,one
+.org.neuroph.core.learning.TrainingElement,3,4,4,2,2,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,4,0,five,one
+.org.neuroph.core.learning.UnsupervisedLearning,1,3,1,0,0,0,0,2,6,2,2,2,15,7,0,0,0,0,0,0,0,0,2,five,three
+.org.neuroph.core.learning.LearningRule,2,9,8,2,3,0,0,3,17,0,0,6,0,0,0,0,1,2,0,0,0,4,5,five,two
+.org.neuroph.core.learning.SupervisedLearning,3,7,3,1,2,0,0,1,6,2,2,4,15,7,0,0,0,0,0,0,0,0,2,five,three
+.org.neuroph.core.transfer.TransferFunction,1,3,3,0,2,0,0,9,9,0,0,1,0,0,0,0,0,1,0,0,0,3,0,five,three
+.org.neuroph.nnet.learning.BackPropagation,1,3,0,0,0,0,0,1,1,5,5,1,27,12,0,0,0,0,0,0,0,0,1,five,three
+.org.neuroph.nnet.learning.OjaLearning,1,1,0,0,0,0,0,0,0,4,4,0,21,9,0,0,0,0,0,0,0,0,1,five,three
+.org.neuroph.nnet.learning.SigmoidDeltaRule,1,2,0,0,0,0,0,1,2,4,4,2,25,11,0,0,0,0,0,0,0,0,0,five,three
+.org.neuroph.nnet.learning.LMS,1,3,0,0,0,0,0,3,5,3,3,3,22,10,0,0,0,0,0,0,0,0,1,five,three
+.org.neuroph.nnet.learning.UnsupervisedHebbianLearning,1,3,1,0,0,0,0,4,4,3,3,1,18,8,0,0,0,0,0,0,0,0,2,five,three
+.org.neuroph.nnet.learning.MomentumBackpropagation,2,3,2,1,1,0,0,0,0,6,6,0,30,13,0,0,0,0,0,0,0,0,1,five,three
+.org.neuroph.nnet.learning.SupervisedHebbianLearning,1,3,0,0,0,0,0,0,0,4,4,0,25,11,0,0,0,0,0,0,0,0,2,five,three
+.org.neuroph.nnet.learning.CompetitiveLearning,1,2,1,0,0,0,0,0,0,3,3,0,18,8,0,0,0,0,0,0,0,0,1,five,three
+Data.org.mars_sim.msp.config.model.construction.Vehicle,2,20,20,3,5,0,0,0,0,0,0,0,0,0,11,3,0,0,0,3,2,24,15,five,one
+Data.org.mars_sim.msp.config.model.medical.Skill,2,10,10,1,3,0,0,0,0,0,0,0,0,0,6,1,0,0,0,1,0,2,3,five,one
+Data.org.mars_sim.msp.config.model.people.Person,8,22,22,8,9,0,0,0,0,0,0,0,0,0,11,1,0,0,0,1,5,8,19,five,two
+Data.org.mars_sim.msp.config.model.people.PersonalityTypes,1,18,18,2,4,0,0,0,0,0,0,0,0,0,10,1,0,0,0,1,1,2,13,five,one
+Data.org.mars_sim.msp.config.model.people.Skill,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,five,one
+Data.org.mars_sim.msp.config.model.resupply.Equipment,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,five,one
+Data.org.mars_sim.msp.config.model.resupply.Person,2,10,10,1,3,0,0,0,0,0,0,0,0,0,6,1,0,0,0,1,0,8,3,five,two
+Data.org.mars_sim.msp.config.model.resupply.Vehicle,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,five,one
+Data.org.mars_sim.msp.config.model.settlement.Equipment,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,five,one
+Data.org.mars_sim.msp.config.model.settlement.Settlement,3,12,12,3,4,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,2,8,9,five,one
+Data.org.mars_sim.msp.config.model.settlement.Vehicle,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,five,one
+Data.org.mars_sim.msp.core.equipment.Bag,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,2,0,0,0,1,1,1,2,five,one
+Data.org.mars_sim.msp.core.equipment.Barrel,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,2,five,one
+Data.org.mars_sim.msp.core.equipment.Equipment,2,5,4,0,3,0,0,0,0,0,0,0,0,0,6,4,0,0,0,4,1,5,6,five,one
+Data.org.mars_sim.msp.core.equipment.EVASuit,11,11,11,0,6,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,3,3,3,five,one
+Data.org.mars_sim.msp.core.equipment.GasCanister,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,2,five,one
+Data.org.mars_sim.msp.core.equipment.LargeBag,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,2,five,one
+Data.org.mars_sim.msp.core.equipment.SpecimenContainer,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,2,five,one
+Data.org.mars_sim.msp.core.person.ai.job.Job,7,8,8,0,7,0,0,0,0,0,0,0,0,0,4,4,0,0,0,3,2,11,8,five,one
+Data.org.mars_sim.msp.core.person.ai.mission.Mission,23,47,26,7,22,0,0,0,0,0,0,0,0,0,11,24,0,0,0,14,4,37,37,five,one
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9,15,12,0,8,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,7,1,7,five,four
+Data.org.mars_sim.msp.core.person.ai.Mind,11,16,15,3,9,0,0,0,0,0,0,0,0,0,8,2,0,0,0,2,8,2,9,five,two
+Data.org.mars_sim.msp.core.person.ai.PersonalityType,21,15,13,1,10,0,0,0,0,0,0,0,0,0,3,1,0,0,0,1,3,1,5,five,one
+Data.org.mars_sim.msp.core.person.ai.Skill,20,6,4,1,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,3,five,one
+Data.org.mars_sim.msp.core.person.ai.SkillManager,2,9,7,0,6,0,0,0,0,0,0,0,0,0,3,3,0,0,0,2,2,1,7,five,four
+Data.org.mars_sim.msp.core.person.medical.DeathDetails,11,12,12,0,11,0,0,0,0,0,0,0,0,0,4,1,0,0,0,1,3,1,12,five,one
+Data.org.mars_sim.msp.core.person.medical.HealthProblem,13,21,17,2,12,0,0,0,0,0,0,0,0,0,6,6,0,0,0,5,5,14,10,five,one
+Data.org.mars_sim.msp.core.person.medical.Medication,4,10,10,0,6,0,0,0,0,0,0,0,0,0,3,4,0,0,0,3,2,2,5,five,one
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,12,6,4,1,3,0,0,0,0,0,0,0,0,0,3,3,0,0,0,2,2,1,5,five,four
+Data.org.mars_sim.msp.core.person.Person,18,26,23,3,18,0,0,0,0,0,0,0,0,0,14,140,0,0,0,42,8,443,20,five,one
+Data.org.mars_sim.msp.core.person.PhysicalCondition,22,37,24,5,17,0,0,0,0,0,0,0,0,0,14,5,0,0,0,3,6,2,23,five,two
+Data.org.mars_sim.msp.core.structure.Settlement,18,42,40,3,31,0,0,0,0,0,0,0,0,0,15,106,0,0,0,45,9,223,21,five,one
+Data.org.mars_sim.msp.core.time.EarthClock,2,8,8,0,5,0,0,0,0,0,0,0,0,0,3,3,0,0,0,3,2,1,4,five,one
+Data.org.mars_sim.msp.core.vehicle.GroundVehicle,4,12,11,4,7,0,0,0,0,0,0,0,0,0,4,10,0,0,0,9,1,6,7,five,one
+Data.org.mars_sim.msp.core.vehicle.LightUtilityVehicle,4,10,10,0,8,0,0,0,0,0,0,0,0,0,8,7,0,0,0,5,2,8,8,five,one
+Data.org.mars_sim.msp.core.vehicle.Rover,8,24,24,2,17,0,0,0,0,0,0,0,0,0,11,20,0,0,0,9,4,49,14,five,one
+Data.org.mars_sim.msp.core.Coordinates,8,34,33,4,18,0,0,0,0,0,0,0,0,0,4,65,0,0,0,25,0,120,15,five,one
+Data.org.mars_sim.msp.core.Inventory,14,41,35,1,19,0,0,0,0,0,0,0,0,0,13,17,0,0,0,3,6,21,31,five,one
+Data.org.mars_sim.msp.core.Unit,12,23,20,6,9,0,0,0,0,0,0,0,0,0,6,61,0,0,0,14,4,114,17,five,one
+Data.org.mars_sim.msp.core.UnitManager,14,31,17,0,11,0,0,0,0,0,0,0,0,0,10,6,0,0,0,1,5,6,17,five,four
+Data.ro.isdc.wro.config.jmx.Configuration,7,17,15,4,5,0,0,0,0,0,0,0,0,0,4,2,0,0,0,2,2,5,6,three,one
+Data.ro.isdc.wro.http.WroFilter,16,24,4,1,10,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,5,0,19,three,three
+Data.ro.isdc.wro.manager.factory.ServletContextAwareWroManagerFactory,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,five,three
+Data.ro.isdc.wro.manager.WroManager,11,25,12,5,7,0,0,0,0,0,0,0,0,0,18,3,0,0,0,1,9,4,30,five,four
+Data.ro.isdc.wro.model.group.processor.AbstractGroupsProcessor,7,19,12,3,8,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,6,0,24,five,three
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2,4,1,0,0,0,0,0,0,0,0,0,0,0,7,6,0,0,0,1,1,7,10,five,six
+Data.ro.isdc.wro.model.group.Group,2,8,8,2,4,0,0,0,0,0,0,0,0,0,5,2,0,0,0,1,2,2,7,five,one
+Data.ro.isdc.wro.model.resource.factory.UriLocatorFactory,3,7,3,0,2,0,0,0,0,0,0,0,0,0,8,10,0,0,0,4,3,9,10,five,six
+Data.ro.isdc.wro.model.resource.locator.ClasspathUriLocator,2,4,3,0,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,2,0,7,five,three
+Data.ro.isdc.wro.model.resource.locator.ServletContextUriLocator,4,4,4,0,2,0,0,0,0,0,0,0,0,0,5,2,0,0,0,0,3,2,5,five,three
+Data.ro.isdc.wro.model.resource.locator.UrlUriLocator,1,3,3,0,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,4,five,three
+Data.ro.isdc.wro.model.resource.processor.impl.css.CssUrlRewritingProcessor,4,6,1,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,9,five,three
+Data.ro.isdc.wro.model.resource.Resource,2,8,6,0,3,0,0,0,0,0,0,0,0,0,3,18,0,0,0,2,2,24,10,five,one
+Data.ro.isdc.wro.model.resource.ResourceType,2,1,1,0,1,0,0,0,0,0,0,0,0,0,1,11,0,0,0,2,0,22,1,five,three
+Data.ro.isdc.wro.model.WroModel,1,5,5,1,3,0,0,0,0,0,0,0,0,0,4,4,0,0,0,2,1,6,6,three,one
+Data.ro.isdc.wro.manager.WroManagerFactory,2,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,three,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,2,1,4,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+Data.ro.isdc.wro.model.resource.locator.UriLocator,2,2,3,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,three,three
+Data.ro.isdc.wro.model.resource.processor.ResourcePostProcessor,1,2,2,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,three,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePreProcessor,1,2,5,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,three,six
+Data.org.jgap.impl.AveragingCrossoverOperator,5,11,8,2,1,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,4,0,11,five,three
+Data.org.jgap.impl.BestChromosomesSelector,6,11,10,2,2,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,4,0,5,five,three
+Data.org.jgap.impl.BooleanGene,4,15,13,3,3,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,0,12,five,one
+Data.org.jgap.impl.CrossoverOperator,3,8,6,1,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,2,0,12,five,three
+Data.org.jgap.impl.DoubleGene,3,15,12,2,4,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,9,five,one
+Data.org.jgap.impl.FixedBinaryGene,4,30,23,8,10,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,13,five,one
+Data.org.jgap.impl.GaussianMutationOperator,3,7,5,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,0,7,five,three
+Data.org.jgap.impl.IntegerGene,4,15,12,2,4,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,9,five,one
+Data.org.jgap.impl.MutationOperator,3,11,10,1,2,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,3,0,12,five,three
+Data.org.jgap.impl.WeightedRouletteSelector,7,10,7,1,1,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,5,0,7,five,three
+Data.org.jgap.Chromosome,8,39,34,8,11,0,0,0,0,0,0,0,0,0,10,2,0,0,0,1,5,4,38,five,one
+Data.org.jgap.Configuration,49,57,51,14,23,0,0,0,0,0,0,0,0,0,22,43,0,0,0,13,13,92,44,five,five
+Data.org.jgap.FitnessFunction,3,3,2,0,2,0,0,0,0,0,0,0,0,0,2,5,0,0,0,3,1,7,2,five,three
+Data.org.jgap.Genotype,4,23,19,2,8,0,0,0,0,0,0,0,0,0,8,4,0,0,0,1,3,7,21,five,one
+Data.org.jgap.Population,6,30,24,4,6,0,0,0,0,0,0,0,0,0,9,22,0,0,0,2,4,36,25,five,one
+Data.org.jgap.Gene,18,3,68,11,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+Data.org.jgap.GeneticOperator,1,0,6,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+Data.org.jgap.INaturalSelector,3,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+Data.javaclient2.extra.Controller,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,four
+Data.javaclient2.extra.HeadingControl,9,13,11,5,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,4,five,four
+Data.javaclient2.extra.PController,1,4,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,four
+Data.javaclient2.extra.PDController,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,four
+Data.javaclient2.extra.PIController,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,four
+Data.javaclient2.extra.PIDController,3,8,8,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,four
+Data.javaclient2.extra.PositionControl,9,11,10,3,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,5,five,four
+Data.javaclient2.extra.PositionGeometryTools,0,6,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,8,five,one
+Data.javaclient2.structures.blobfinder.PlayerBlobfinderBlob,10,20,20,10,10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,five,one
+Data.javaclient2.structures.bumper.PlayerBumperDefine,3,6,6,3,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,2,2,five,one
+Data.javaclient2.structures.bumper.PlayerBumperGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,five,one
+Data.javaclient2.structures.fiducial.PlayerFiducialItem,3,6,6,3,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,2,4,five,one
+Data.javaclient2.structures.ir.PlayerIrPose,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,five,one
+Data.javaclient2.structures.laser.PlayerLaserConfig,6,12,12,6,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,five,one
+Data.javaclient2.structures.laser.PlayerLaserGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,five,one
+Data.javaclient2.structures.planner.PlayerPlannerWaypointsReq,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,five,one
+Data.javaclient2.structures.player.PlayerDeviceDevlist,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,five,one
+Data.javaclient2.structures.player.PlayerDeviceDriverInfo,3,6,6,3,3,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,five,one
+Data.javaclient2.structures.position1d.PlayerPosition1dData,4,8,8,4,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,five,one
+Data.javaclient2.structures.position1d.PlayerPosition1dGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,five,one
+Data.javaclient2.structures.position2d.PlayerPosition2dGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,five,one
+Data.javaclient2.structures.position3d.PlayerPosition3dGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,five,one
+Data.javaclient2.structures.simulation.PlayerSimulationPose2dReq,3,6,6,3,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,five,one
+Data.javaclient2.structures.sonar.PlayerSonarGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,five,one
+Data.javaclient2.structures.wifi.PlayerWifiLink,12,24,24,12,12,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,five,one
+Data.javaclient2.AIOInterface,2,5,5,1,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.AudioDSPInterface,5,10,10,1,5,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,7,five,one
+Data.javaclient2.AudioMixerInterface,3,6,6,1,3,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,1,1,4,five,one
+Data.javaclient2.BlinkenlightInterface,2,9,9,5,2,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,1,1,5,five,one
+Data.javaclient2.BlobfinderInterface,3,7,6,2,2,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,1,1,6,five,one
+Data.javaclient2.BumperInterface,5,9,8,0,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,five,one
+Data.javaclient2.CameraInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.DIOInterface,2,5,5,1,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.FiducialInterface,9,16,15,2,8,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,3,1,7,five,one
+Data.javaclient2.GPSInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.GripperInterface,5,9,9,1,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,five,one
+Data.javaclient2.IRInterface,5,9,9,1,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,five,one
+Data.javaclient2.JoystickInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.LaserInterface,9,16,15,2,9,0,0,0,0,0,0,0,0,0,6,1,0,0,0,0,4,1,9,five,one
+Data.javaclient2.LocalizeInterface,5,9,8,1,4,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,6,five,one
+Data.javaclient2.LogInterface,3,9,8,3,2,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,1,1,4,five,one
+Data.javaclient2.MapInterface,7,13,12,0,6,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,3,1,7,five,one
+Data.javaclient2.MComInterface,3,11,11,1,2,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,1,1,9,five,one
+Data.javaclient2.PlannerInterface,5,10,9,2,5,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,6,five,one
+Data.javaclient2.PlayerClient,21,64,56,1,8,0,0,0,0,0,0,0,0,0,46,36,0,0,0,1,9,36,44,five,three
+Data.javaclient2.PlayerDevice,6,11,9,3,3,0,0,0,0,0,0,0,0,0,6,1,0,0,0,2,5,0,7,five,three
+Data.javaclient2.Position2DInterface,5,24,21,11,7,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,8,five,six
+Data.javaclient2.Position3DInterface,5,23,21,10,7,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,8,five,one
+Data.javaclient2.PowerInterface,3,6,5,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,4,five,one
+Data.javaclient2.PtzInterface,5,12,11,2,4,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,6,five,one
+Data.javaclient2.SimulationInterface,5,10,9,2,5,0,0,0,0,0,0,0,0,0,6,1,0,0,0,0,2,1,8,five,one
+Data.javaclient2.SonarInterface,5,9,9,1,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,five,one
+Data.javaclient2.SoundInterface,0,2,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,five,one
+Data.javaclient2.SpeechInterface,0,2,2,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,1,2,five,one
+Data.javaclient2.SpeechRecognitionInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.WaveformInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,five,one
+Data.javaclient2.WiFiInterface,3,7,7,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,4,five,one
+Data.brain.bo.AbstractBusinessObject,0,5,4,0,2,0,0,0,0,0,0,0,0,0,1,9,0,0,0,6,0,9,2,five,six
+Data.brain.bo.PortfolioData,6,12,11,0,8,0,0,0,0,0,0,0,0,0,5,3,0,0,0,0,4,3,14,five,one
+Data.brain.bo.TickerData,7,7,7,0,4,0,0,0,0,0,0,0,0,0,4,3,0,0,0,0,4,2,9,five,one
+Data.brain.bo.TickerValue,5,2,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,five,one
+Data.brain.bo.UserData,4,8,5,0,5,0,0,0,0,0,0,0,0,0,6,5,0,0,0,1,4,3,11,five,one
+Data.brain.gui.charts.AbstractChartingTool,2,4,4,1,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,0,2,five,six
+Data.brain.gui.charts.ChartingToolsFacade,6,5,5,0,3,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,6,0,5,five,six
+Data.brain.gui.charts.PortfolioChartingTool,2,4,4,1,0,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,2,1,3,five,three
+Data.brain.gui.charts.TickerChartingTool,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,five,three
+Data.brain.gui.charts.UserChartingTool,0,3,2,0,1,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,3,five,three
+Data.brain.gui.tree.TreePortfolioBrowser,2,5,5,1,0,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,2,1,4,three,five
+Data.brain.Main,5,5,5,1,1,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,5,0,4,four,four
+Data.dal.DataFeed,8,6,4,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,6,0,2,five,six
+Data.dal.Db,3,9,9,0,5,0,0,0,0,0,0,0,0,0,4,1,0,0,0,1,2,0,14,five,one
+Data.dal.ResourceBundleHandler,6,9,8,1,3,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,3,0,10,five,four
+Data.ga.GAAlgorithm,1,4,3,0,1,0,0,0,0,0,0,0,0,0,4,2,0,0,0,2,1,0,10,three,five
+Data.ga.GAEnumAllelesSet,9,18,15,6,7,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,6,0,9,five,one
+Data.ga.Genome,1,3,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,three,one
+Data.ga.RankSelector,4,12,12,3,5,0,0,0,0,0,0,0,0,0,5,3,0,0,0,1,3,3,7,five,three
+Data.ga.UniformCrossover,2,3,3,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,2,0,2,five,three
+Data.ga.VectorAllelesGenome,1,2,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,3,five,one
+Data.ga.VectorGenome,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,three,one
+Data.gaPortfolio.PortfolioAlgorithm,2,8,8,1,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,3,five,three
+Data.gaPortfolio.SharpePortfolioEvaluator,0,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,five,three
+UML Model.Logical View.cl.utfsm.acs.acg.core.DAOManager,3,4,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,five,four
+UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmSystemManager,6,5,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,4,five,four
+UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,five,four
+UML Model.Logical View.cl.utfsm.acs.acg.core.CategoriesManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,five,four
+UML Model.Logical View.cl.utfsm.acs.acg.core.SourcesManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,five,four
+UML Model.Logical View.cl.utfsm.acs.acg.core.ReductionsManager,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,five,four
+UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,five
+UML Model.Logical View.com.cosylab.acs.laser.dao.ACSCategoryDAOImpl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,five
+UML Model.Logical View.com.cosylab.acs.laser.dao.ACSSourceDAOImpl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,five
+UML Model.Logical View.AbstractBaseObject,4,1,1,0,0,0,1,4,34,0,0,5,0,0,0,0,1,1,0,0,1,0,0,,six
+UML Model.Logical View.AbstractAuditableObject,1,0,0,0,0,0,1,22,28,2,2,3,2,9,0,0,2,2,0,2,1,0,0,,six
+UML Model.Logical View.AbstractPlate,1,1,1,0,0,0,1,2,2,4,4,1,4,23,0,1,1,1,0,1,1,2,0,,six
+UML Model.Logical View.AbstractSample,2,0,0,0,0,0,0,3,3,3,3,1,2,10,0,0,1,1,0,2,2,0,0,,six
+UML Model.Logical View.User,2,0,0,0,0,0,0,0,0,3,3,0,3,14,0,0,0,0,0,2,1,3,0,,one
+UML Model.Logical View.Measurement,3,2,2,0,0,0,0,0,0,4,4,0,4,21,0,0,2,2,0,1,3,0,0,,one
+UML Model.Logical View.Result,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,,one
+UML Model.Logical View.ResultType,1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,0,0,0,,one
+UML Model.Logical View.AbstractAnnotatableObject,1,0,0,0,0,0,1,1,29,1,1,4,1,4,0,0,2,2,0,1,1,0,0,,six
+UML Model.Logical View.AbstractAnnotationInstance,2,0,0,0,0,0,0,3,3,1,1,1,1,4,0,0,3,3,0,1,2,1,0,,six
+UML Model.Logical View.FloatAnnotation,1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,0,1,0,,one
+UML Model.Logical View.TextAnnotation,1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,0,1,0,,one
+UML Model.Logical View.EnumAnnotation,1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,1,1,0,,one
+UML Model.Logical View.AuditLog,5,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,,one
+UML Model.Logical View.Instrument,1,1,1,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,1,0,0,,one
+UML Model.Logical View.SampleContainer,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,,one
+UML Model.Logical View.DrugSample,2,1,1,0,0,0,0,0,0,4,4,0,2,12,0,0,0,0,0,1,1,0,0,,one
+UML Model.Logical View.CellSample,2,1,1,0,0,0,0,0,0,4,4,0,2,12,0,0,1,1,0,1,2,0,0,,one
+UML Model.Logical View.DrugOrigin,3,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,1,1,0,1,1,0,0,,one
+UML Model.Logical View.SampleMarker,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,2,2,0,0,,one
+UML Model.Logical View.WorkList,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,,one
+UML Model.Logical View.AbstractOperation,1,0,0,0,0,0,0,1,1,3,3,1,2,10,0,0,0,0,0,1,1,0,0,,six
+UML Model.Logical View.PlateLayout,2,2,2,0,0,0,1,0,0,4,4,0,4,23,2,1,0,0,0,2,2,3,0,,three
+UML Model.Logical View.PlateType,4,0,0,0,0,0,0,0,0,3,3,0,2,10,2,0,0,0,0,2,2,3,0,,one
+UML Model.Logical View.LayoutWell,2,2,2,0,0,0,1,0,0,4,3,0,2,13,0,0,0,0,0,2,2,0,0,,three
+UML Model.Logical View.LayOutMarker,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,,three
+UML Model.Logical View.Well,4,2,2,0,0,0,1,0,0,4,3,0,2,13,0,0,2,2,0,3,3,0,0,,three
+UML Model.Logical View.CellOrigin,1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,1,0,0,,five
+UML Model.Logical View.MasterPlate,1,1,1,0,0,0,0,0,0,5,5,0,5,24,2,3,0,0,0,0,0,0,0,,six
+UML Model.Logical View.Annotation,2,1,1,0,0,0,0,0,0,3,3,0,2,10,1,1,0,0,0,1,1,0,0,,five
+UML Model.Logical View.PlateFunction,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,2,0,0,,three
+UML Model.Logical View.WellFunction,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,,three
+UML Model.Logical View.AbstractWell,3,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,1,1,0,0,,six
+UML Model.Logical View.AbstractBasePlate,3,0,0,0,0,0,0,2,4,3,3,2,2,10,0,0,0,0,0,1,1,0,0,,six
+UML Model.Logical View.Plate,2,0,0,0,0,0,0,0,0,5,5,0,5,24,0,1,1,1,0,0,0,0,0,,five
+UML Model.Logical View.Folder,1,0,0,0,0,0,0,3,3,3,3,1,2,10,0,0,0,0,0,0,1,0,0,,one
+UML Model.Logical View.UniqueFolder,1,0,0,0,0,0,0,0,0,4,4,0,2,11,0,0,0,0,0,0,0,0,0,,one
+UML Model.Logical View.PickList,2,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,2,0,0,,one
+UML Model.Logical View.Picking,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,,three
+UML Model.Logical View.ExportScript,3,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,0,3,0,0,,three
+UML Model.Logical View.PatientSample,1,0,0,0,0,0,0,0,0,4,4,0,2,12,0,0,1,1,0,1,1,0,0,,one
+UML Model.Logical View.PatientOrigin,1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,1,1,0,1,1,0,0,,five
+UML Model.Logical View.AbstractURLGrabber,2,7,7,1,2,0,1,3,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,five,six
+UML Model.Logical View.WgetURLGrabber,0,1,1,0,0,0,0,0,0,1,1,0,7,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.TestURLGrabber,0,2,2,1,0,0,0,0,0,1,1,0,7,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.JSURLGrabber,0,2,2,0,0,0,0,0,0,1,1,0,7,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.ShneeParser,0,2,2,0,0,0,0,0,0,1,1,0,12,4,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.AbstractMarkupLangParser,4,12,10,2,3,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,2,three,three
+UML Model.Logical View.AbstractNode,2,6,6,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,five,three
+UML Model.Logical View.BitysNode,1,5,5,0,0,0,0,0,0,1,1,0,6,2,0,0,0,0,0,0,1,0,2,five,three
+UML Model.Logical View.URLGrabber,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+UML Model.Logical View.MarkupLangParser,9,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+UML Model.Logical View.Node,6,2,7,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+UML.Logical View.taxistation.MainClass,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,five,four
+UML.Logical View.taxistation.utils.Accumulator,1,3,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,three
+UML.Logical View.taxistation.controller.concrete.FindCarController,0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,five,four
+UML.Logical View.taxistation.controller.concrete.ShutdownController,0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,five,four
+UML.Logical View.taxistation.controller.concrete.SortTaxiStationController,0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,five,four
+UML.Logical View.taxistation.controller.concrete.CostOfStationController,0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,five,four
+UML.Logical View.taxistation.controller.concrete.ConsoleController,0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,1,0,0,0,0,0,five,four
+UML.Logical View.taxistation.controller.AbstractTaxiStationController,2,0,0,0,0,0,1,5,5,0,0,1,0,0,0,0,0,1,0,0,2,0,0,three,four
+UML.Logical View.taxistation.view.concrete.ConsoleView,2,3,3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,five,three
+UML.Logical View.taxistation.model.TaxiStation,2,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,3,four,three
+UML.Logical View.taxistation.model.cars.concrete.PassengerCar,1,1,1,0,0,0,0,0,0,1,1,0,5,6,0,0,0,0,0,0,0,0,0,four,one
+UML.Logical View.taxistation.model.cars.AbstractCar,6,5,5,0,0,0,2,1,1,0,0,1,0,0,0,0,0,1,0,0,1,3,0,four,one
+UML Model.Logical View.Map,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,0,1,1,0,0,three,one
+UML Model.Logical View.Robot,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,2,0,2,0,0,0,five,one
+UML Model.Logical View.Landmark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,four,one
+UML Model.Logical View.MapView,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,five,three
+UML Model.Logical View.RobotView,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0,0,five,three
+UML Model.Logical View.LandmarkView,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,five,three
+UML Model.Logical View.SlamController,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,five,four
+UML.Logical View.ua.plants.Main,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,five,four
+UML.Logical View.ua.plants.generated.ObjectFactory,0,6,6,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,5,four,three
+UML.Logical View.ua.plants.generated.GreenHouse,1,4,4,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,4,3,five,one
+UML.Logical View.ua.plants.parser.dom.DOMParser,0,5,0,0,0,0,0,0,0,1,1,0,10,2,0,1,0,0,0,0,0,0,10,five,three
+UML.Logical View.ua.plants.parser.dom.DOMParserFactory,0,1,1,0,1,0,0,0,0,1,1,0,6,0,1,0,0,0,0,0,0,0,1,four,three
+UML.Logical View.ua.plants.parser.sax.SAXParser,1,1,0,0,0,0,0,0,0,1,1,0,5,1,0,1,0,0,0,0,0,0,2,five,three
+UML.Logical View.ua.plants.parser.sax.SAXParserFactory,0,1,1,0,1,0,0,0,0,1,1,0,2,0,1,0,0,0,0,0,0,0,1,four,three
+UML.Logical View.ua.plants.parser.AbstractXMLParser,1,5,2,0,0,0,1,5,3,0,0,1,0,0,0,0,0,0,0,0,1,0,6,five,three
+UML.Logical View.ua.plants.parser.stax.StAXParser,0,1,0,0,0,0,0,0,0,1,1,0,10,2,0,1,0,0,0,0,0,0,2,five,three
+UML.Logical View.ua.plants.parser.stax.StAXParserFactory,0,1,1,0,1,0,0,0,0,1,1,0,4,0,1,0,0,0,0,0,0,0,1,four,three
+UML.Logical View.ua.plants.parser.XMLParserFactory,0,2,2,0,2,0,0,6,3,0,0,1,0,0,0,0,0,1,0,0,0,0,1,four,three
+UML.Logical View.ua.plants.parser.XMLParser,2,0,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,six
+UML Model.Logical View.objectcourseend.SmartPostManager,10,15,12,1,6,0,0,0,0,1,1,0,0,0,2,0,2,2,0,0,3,0,2,five,four
+UML Model.Logical View.objectcourseend.ObjectCourseEnd,3,2,2,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,2,0,1,five,five
+UML Model.Logical View.objectcourseend.SaxXML,4,6,6,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,three,five
+UML Model.Logical View.objectcourseend.FXMLMainControl,12,10,1,0,0,0,0,0,0,1,1,0,0,0,0,0,3,3,0,0,10,0,11,five,four
+UML Model.Logical View.objectcourseend.FXMLPackagesControl,9,3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,5,0,4,five,four
+UML Model.Logical View.objectcourseend.Class_3,0,2,2,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,three,three
+UML Model.Logical View.objectcourseend.Class_1,0,2,2,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,three,three
+UML Model.Logical View.objectcourseend.Class_2,0,1,1,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,three,three
+UML Model.Logical View.objectcourseend.AbstractPackage,6,4,4,0,0,0,0,3,3,0,0,1,0,0,0,2,0,0,0,0,3,4,3,five,six
+UML Model.Logical View.objectcourseend.Item,5,4,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,0,five,one
+UML Model.Logical View.objectcourseend.SmartPost,6,7,6,0,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,1,9,3,five,one
+UML Model.Logical View.objectcourseend.Storage,1,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,2,five,one
+UML Model.Logical View.Order,5,7,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,2,five,two
+UML Model.Logical View.Customer,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,four,six
+UML Model.Logical View.Employee,2,0,0,0,0,0,0,2,7,0,0,2,0,0,0,0,0,0,0,1,0,0,0,five,six
+UML Model.Logical View.MenuItem,2,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,2,0,five,six
+UML Model.Logical View.Topping,1,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,1,0,0,five,two
+UML Model.Logical View.BaseItem,2,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,1,0,0,0,five,three
+UML Model.Logical View.FunctionalEmployee,0,2,2,0,0,0,0,2,2,1,1,1,0,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.PerformanceEmployee,0,1,1,0,0,0,0,3,3,1,1,1,0,2,0,0,0,0,0,0,0,0,1,five,three
+UML Model.Logical View.Manager,0,2,2,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,four,four
+UML Model.Logical View.Cashier,0,0,0,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.Cook,0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.Prep,0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,five,three
+UML Model.Logical View.Delivery,0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.User,6,7,6,0,1,0,0,2,2,0,0,1,0,0,0,0,6,6,0,0,3,3,0,five,one
+untitledModel.NormalUser,0,1,1,0,0,0,0,0,0,1,1,0,7,6,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.PremiumUser,1,1,1,0,0,0,0,0,0,1,1,0,7,6,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.GroupPrivacy,1,1,1,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,1,0,1,five,six
+untitledModel.PublicPrivacy,1,2,2,1,1,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.ClosedPrivacy,0,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,1,five,three
+untitledModel.IGroup,1,4,4,2,0,0,0,1,1,0,0,1,0,0,0,0,3,3,0,0,1,1,1,five,six
+untitledModel.Group,3,3,3,1,0,0,0,0,0,1,1,0,4,1,0,0,1,1,0,0,0,0,1,five,five
+untitledModel.Message,0,2,2,0,0,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,0,0,0,five,six
+untitledModel.ChatMessage,1,1,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,1,0,0,five,three
+untitledModel.GroupChatMessage,2,1,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,1,0,0,five,three
+untitledModel.Post,1,1,1,0,0,0,0,3,6,0,0,2,0,0,0,0,2,2,0,1,1,1,0,five,six
+untitledModel.UserPost,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.PagePost,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.PrivacyPost,1,3,3,1,0,0,0,3,3,1,1,1,1,1,0,0,0,0,0,0,1,0,1,five,three
+untitledModel.PublicPost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.PrivatePost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.CustomPrivacyPost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.IPage,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,five,six
+untitledModel.Page,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,2,2,0,0,0,0,0,five,three
+untitledModel.Timeline,0,1,1,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,0,0,five,six
+untitledModel.PublicTimeline,0,2,2,0,2,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.ProfileTimeline,0,1,1,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,five,three
+untitledModel.UserModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,five,two
+untitledModel.PageModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,five,two
+untitledModel.GroupModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,five,two
+untitledModel.MessageModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,two
+untitledModel.PostModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,five,two
+untitledModel.IHashtag,0,3,3,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,five,six
+untitledModel.Hashtag,0,3,3,0,0,0,0,0,0,1,1,0,3,0,0,0,0,0,0,0,0,0,0,five,three
+UML.Logical View.Talon,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,five,one
+UML.Logical View.Product,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,five,one
+UML.Logical View.state,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,one
+UML.Logical View.Contract,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,five,one
+UML.Logical View.Department,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,five,one
+UML.Logical View.amount,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,one
+UML.Logical View.User,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,five,one
+UML.Logical View.Role,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,one
+UML.Logical View.Organization,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,one
+UML.Logical View.Customer,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,five,one
+UML.Logical View.Price,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,five,one
+UML.Logical View.Talon::issue,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,five,one
+UML.Logical View.Talon::repaid,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,five,one
+UML.Logical View.Talon::Operation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,five,three
+UML.Logical View.Product::Operation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,five,three
+Data.model.Primitive,23,8,7,0,6,0,0,,0,0,0,0,0,0,1,3,,0,0,2,1,5,7,five,one
+Data.model.ActionLanguage,2,2,13,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,three
+Data.model.Association,6,1,19,6,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,four,two
+Data.model.AssociationClass,2,1,9,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.AssociationEnd,13,1,7,9,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.AssociationEndPersistence,3,1,8,1,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,three
+Data.model.AssociationEndPrimary,4,1,8,4,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.AssociationEndSecondary,4,1,8,4,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Attribute,16,0,3,12,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.AttributePersistence,14,1,8,8,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.AttributeReferential,6,0,3,6,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,three
+Data.model.CallEvent,0,0,3,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.ChangeEvent,0,0,3,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Class,17,3,40,17,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.ClassPersistence,5,1,8,5,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.DataType,3,0,3,3,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.Event,2,0,6,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,six
+Data.model.ExceptionEvent,0,0,3,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.FinalState,2,1,8,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.FreeType,6,1,8,4,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.FromState,1,1,7,1,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,six
+Data.model.Identifier,0,0,1,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,six
+Data.model.IdentifierNonPrimary,2,0,3,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,three
+Data.model.IdentifierParticipant,0,0,1,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,six
+Data.model.IdentifierPrimary,2,2,14,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,three
+Data.model.Index,1,0,3,1,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.InitialState,2,1,8,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.ObjectConstraintLanguage,2,3,18,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Operation,2,0,3,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.OperationSignature,5,0,3,3,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Package,5,0,18,5,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.Parameter,4,0,3,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.PrimitiveType,14,1,8,10,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Procedure,2,1,8,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.SignalEvent,0,2,13,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Specialization,1,0,3,1,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.SpecializationGroup,3,0,3,3,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.State,4,0,3,4,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.Stately,0,0,1,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,six
+Data.model.StateMachine,8,2,28,8,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.System,14,0,13,14,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,two
+Data.model.TimerEvent,2,0,3,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.ToState,2,1,7,2,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,six
+Data.model.Transition,6,0,3,6,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,0,0,0,five,one
+Data.model.Type,0,2,11,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,five,six

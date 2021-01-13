@@ -1,0 +1,807 @@
+Name,NumAttr,NumOps,NumPubOps,Setters,Getters,Nesting,IFImpl,NOC,NumDesc,NumAnc,DIT,CLD,OpsInh,AttrInh,Dep_Out,Dep_In,NumAssEl_ssc,NumAssEl_sb,NumAssEl_nsb,EC_Attr,IC_Attr,EC_Par,IC_Par,'EndWithManager, Controller','HasType, Annotation, List','EndWithFactory, Impl, Implementation',IsEntity,'Confidence level','Role Stereotypes'
+.org.neuroph.core.Weight,3,8,8,2,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,No,No,No,Yes,five,one
+.org.neuroph.core.Neuron,6,25,24,6,12,0,0,4,5,0,0,2,0,0,0,0,2,4,3,0,0,31,9,No,No,No,Yes,five,two
+.org.neuroph.core.NeuralNetwork,7,39,39,6,11,0,0,16,16,0,0,1,0,0,0,0,1,2,6,0,0,25,18,No,No,No,No,three,two
+.org.neuroph.core.Connection,1,4,4,0,4,0,0,1,1,0,0,1,0,0,0,0,2,2,1,0,0,5,2,No,No,No,No,three,two
+.org.neuroph.core.Layer,2,15,15,2,5,0,0,1,1,0,0,1,0,0,0,0,2,2,0,0,0,26,8,No,No,No,No,five,two
+.org.neuroph.core.input.InputFunction,1,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,2,2,No,No,No,No,five,three
+.org.neuroph.core.input.WeightsFunction,0,2,2,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,2,0,No,No,No,No,five,three
+.org.neuroph.core.input.SummingFunction,0,2,2,0,1,0,0,8,8,0,0,1,0,0,0,0,1,1,0,0,0,2,0,No,No,No,No,five,three
+.org.neuroph.core.learning.IterativeLearning,5,6,6,2,2,0,0,2,14,1,1,5,9,2,0,0,0,0,0,0,0,0,2,No,No,No,No,five,three
+.org.neuroph.core.learning.TrainingSet,4,17,17,2,3,0,0,0,0,0,0,0,0,0,0,0,1,1,5,0,0,32,2,No,No,No,No,five,two
+.org.neuroph.core.learning.SupervisedTrainingElement,2,2,2,1,1,0,0,0,0,1,1,0,4,3,0,0,0,0,0,0,0,2,0,No,No,No,No,five,one
+.org.neuroph.core.learning.TrainingElement,3,4,4,2,2,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,4,0,No,No,No,No,five,one
+.org.neuroph.core.learning.UnsupervisedLearning,1,3,1,0,0,0,0,2,6,2,2,2,15,7,0,0,0,0,0,0,0,0,2,No,No,No,No,five,three
+.org.neuroph.core.learning.LearningRule,2,9,8,2,3,0,0,3,17,0,0,6,0,0,0,0,1,2,0,0,0,4,5,No,No,No,No,five,two
+.org.neuroph.core.learning.SupervisedLearning,3,7,3,1,2,0,0,1,6,2,2,4,15,7,0,0,0,0,0,0,0,0,2,No,No,No,No,five,three
+.org.neuroph.core.transfer.TransferFunction,1,3,3,0,2,0,0,9,9,0,0,1,0,0,0,0,0,1,0,0,0,3,0,No,No,No,No,five,three
+.org.neuroph.nnet.learning.BackPropagation,1,3,0,0,0,0,0,1,1,5,5,1,27,12,0,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+.org.neuroph.nnet.learning.OjaLearning,1,1,0,0,0,0,0,0,0,4,4,0,21,9,0,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+.org.neuroph.nnet.learning.SigmoidDeltaRule,1,2,0,0,0,0,0,1,2,4,4,2,25,11,0,0,0,0,0,0,0,0,0,No,No,No,No,five,three
+.org.neuroph.nnet.learning.LMS,1,3,0,0,0,0,0,3,5,3,3,3,22,10,0,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+.org.neuroph.nnet.learning.UnsupervisedHebbianLearning,1,3,1,0,0,0,0,4,4,3,3,1,18,8,0,0,0,0,0,0,0,0,2,No,No,No,No,five,three
+.org.neuroph.nnet.learning.MomentumBackpropagation,2,3,2,1,1,0,0,0,0,6,6,0,30,13,0,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+.org.neuroph.nnet.learning.SupervisedHebbianLearning,1,3,0,0,0,0,0,0,0,4,4,0,25,11,0,0,0,0,0,0,0,0,2,No,No,No,No,five,three
+.org.neuroph.nnet.learning.CompetitiveLearning,1,2,1,0,0,0,0,0,0,3,3,0,18,8,0,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+Data.org.mars_sim.msp.config.model.construction.Vehicle,2,20,20,3,5,0,0,0,0,0,0,0,0,0,11,3,0,0,0,3,2,24,15,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.config.model.medical.Skill,2,10,10,1,3,0,0,0,0,0,0,0,0,0,6,1,0,0,0,1,0,2,3,No,No,No,No,five,one
+Data.org.mars_sim.msp.config.model.people.Person,8,22,22,8,9,0,0,0,0,0,0,0,0,0,11,1,0,0,0,1,5,8,19,No,No,No,Yes,five,two
+Data.org.mars_sim.msp.config.model.people.PersonalityTypes,1,18,18,2,4,0,0,0,0,0,0,0,0,0,10,1,0,0,0,1,1,2,13,No,Yes,No,No,five,one
+Data.org.mars_sim.msp.config.model.people.Skill,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,No,No,No,No,five,one
+Data.org.mars_sim.msp.config.model.resupply.Equipment,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,No,No,No,No,five,one
+Data.org.mars_sim.msp.config.model.resupply.Person,2,10,10,1,3,0,0,0,0,0,0,0,0,0,6,1,0,0,0,1,0,8,3,No,No,No,Yes,five,two
+Data.org.mars_sim.msp.config.model.resupply.Vehicle,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.config.model.settlement.Equipment,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.config.model.settlement.Settlement,3,12,12,3,4,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,2,8,9,No,No,No,No,five,one
+Data.org.mars_sim.msp.config.model.settlement.Vehicle,3,12,12,2,4,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,1,8,5,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.Bag,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,2,0,0,0,1,1,1,2,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.Barrel,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,2,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.Equipment,2,5,4,0,3,0,0,0,0,0,0,0,0,0,6,4,0,0,0,4,1,5,6,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.EVASuit,11,11,11,0,6,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,3,3,3,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.GasCanister,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,2,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.LargeBag,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,2,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.equipment.SpecimenContainer,3,2,2,0,1,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,2,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.ai.job.Job,7,8,8,0,7,0,0,0,0,0,0,0,0,0,4,4,0,0,0,3,2,11,8,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.ai.mission.Mission,23,47,26,7,22,0,0,0,0,0,0,0,0,0,11,24,0,0,0,14,4,37,37,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9,15,12,0,8,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,7,1,7,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.Mind,11,16,15,3,9,0,0,0,0,0,0,0,0,0,8,2,0,0,0,2,8,2,9,No,No,No,No,five,two
+Data.org.mars_sim.msp.core.person.ai.PersonalityType,21,15,13,1,10,0,0,0,0,0,0,0,0,0,3,1,0,0,0,1,3,1,5,No,Yes,No,No,five,one
+Data.org.mars_sim.msp.core.person.ai.Skill,20,6,4,1,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,3,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.ai.SkillManager,2,9,7,0,6,0,0,0,0,0,0,0,0,0,3,3,0,0,0,2,2,1,7,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.medical.DeathDetails,11,12,12,0,11,0,0,0,0,0,0,0,0,0,4,1,0,0,0,1,3,1,12,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.medical.HealthProblem,13,21,17,2,12,0,0,0,0,0,0,0,0,0,6,6,0,0,0,5,5,14,10,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.medical.Medication,4,10,10,0,6,0,0,0,0,0,0,0,0,0,3,4,0,0,0,3,2,2,5,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,12,6,4,1,3,0,0,0,0,0,0,0,0,0,3,3,0,0,0,2,2,1,5,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.Person,18,26,23,3,18,0,0,0,0,0,0,0,0,0,14,140,0,0,0,42,8,443,20,No,No,No,Yes,five,one
+Data.org.mars_sim.msp.core.person.PhysicalCondition,22,37,24,5,17,0,0,0,0,0,0,0,0,0,14,5,0,0,0,3,6,2,23,No,No,No,No,five,two
+Data.org.mars_sim.msp.core.structure.Settlement,18,42,40,3,31,0,0,0,0,0,0,0,0,0,15,106,0,0,0,45,9,223,21,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.time.EarthClock,2,8,8,0,5,0,0,0,0,0,0,0,0,0,3,3,0,0,0,3,2,1,4,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.vehicle.GroundVehicle,4,12,11,4,7,0,0,0,0,0,0,0,0,0,4,10,0,0,0,9,1,6,7,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.vehicle.LightUtilityVehicle,4,10,10,0,8,0,0,0,0,0,0,0,0,0,8,7,0,0,0,5,2,8,8,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.vehicle.Rover,8,24,24,2,17,0,0,0,0,0,0,0,0,0,11,20,0,0,0,9,4,49,14,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.Coordinates,8,34,33,4,18,0,0,0,0,0,0,0,0,0,4,65,0,0,0,25,0,120,15,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.Inventory,14,41,35,1,19,0,0,0,0,0,0,0,0,0,13,17,0,0,0,3,6,21,31,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.Unit,12,23,20,6,9,0,0,0,0,0,0,0,0,0,6,61,0,0,0,14,4,114,17,No,No,No,No,five,one
+Data.org.mars_sim.msp.core.UnitManager,14,31,17,0,11,0,0,0,0,0,0,0,0,0,10,6,0,0,0,1,5,6,17,No,No,No,No,five,four
+Data.ro.isdc.wro.config.jmx.Configuration,7,17,15,4,5,0,0,0,0,0,0,0,0,0,4,2,0,0,0,2,2,5,6,No,No,No,No,three,one
+Data.ro.isdc.wro.http.WroFilter,16,24,4,1,10,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,5,0,19,No,No,No,No,three,three
+Data.ro.isdc.wro.manager.factory.ServletContextAwareWroManagerFactory,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,No,No,Yes,No,five,three
+Data.ro.isdc.wro.manager.WroManager,11,25,12,5,7,0,0,0,0,0,0,0,0,0,18,3,0,0,0,1,9,4,30,No,No,No,No,five,four
+Data.ro.isdc.wro.model.group.processor.AbstractGroupsProcessor,7,19,12,3,8,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,6,0,24,No,No,No,No,five,three
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2,4,1,0,0,0,0,0,0,0,0,0,0,0,7,6,0,0,0,1,1,7,10,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.Group,2,8,8,2,4,0,0,0,0,0,0,0,0,0,5,2,0,0,0,1,2,2,7,No,No,No,No,five,one
+Data.ro.isdc.wro.model.resource.factory.UriLocatorFactory,3,7,3,0,2,0,0,0,0,0,0,0,0,0,8,10,0,0,0,4,3,9,10,No,No,Yes,No,five,six
+Data.ro.isdc.wro.model.resource.locator.ClasspathUriLocator,2,4,3,0,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,2,0,7,No,No,No,No,five,three
+Data.ro.isdc.wro.model.resource.locator.ServletContextUriLocator,4,4,4,0,2,0,0,0,0,0,0,0,0,0,5,2,0,0,0,0,3,2,5,No,No,No,No,five,three
+Data.ro.isdc.wro.model.resource.locator.UrlUriLocator,1,3,3,0,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,4,No,No,No,No,five,three
+Data.ro.isdc.wro.model.resource.processor.impl.css.CssUrlRewritingProcessor,4,6,1,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,9,No,No,No,No,five,three
+Data.ro.isdc.wro.model.resource.Resource,2,8,6,0,3,0,0,0,0,0,0,0,0,0,3,18,0,0,0,2,2,24,10,No,No,No,No,five,one
+Data.ro.isdc.wro.model.resource.ResourceType,2,1,1,0,1,0,0,0,0,0,0,0,0,0,1,11,0,0,0,2,0,22,1,No,No,No,No,five,three
+Data.ro.isdc.wro.model.WroModel,1,5,5,1,3,0,0,0,0,0,0,0,0,0,4,4,0,0,0,2,1,6,6,No,No,No,No,three,one
+Data.ro.isdc.wro.manager.WroManagerFactory,2,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,Yes,No,three,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,2,1,4,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,Yes,No,five,six
+Data.ro.isdc.wro.model.resource.locator.UriLocator,2,2,3,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,three,three
+Data.ro.isdc.wro.model.resource.processor.ResourcePostProcessor,1,2,2,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,three,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePreProcessor,1,2,5,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,three,six
+Data.org.jgap.impl.AveragingCrossoverOperator,5,11,8,2,1,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,4,0,11,No,No,No,No,five,three
+Data.org.jgap.impl.BestChromosomesSelector,6,11,10,2,2,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,4,0,5,No,No,No,No,five,three
+Data.org.jgap.impl.BooleanGene,4,15,13,3,3,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,0,12,No,No,No,No,five,one
+Data.org.jgap.impl.CrossoverOperator,3,8,6,1,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,2,0,12,No,No,No,No,five,three
+Data.org.jgap.impl.DoubleGene,3,15,12,2,4,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,9,No,No,No,No,five,one
+Data.org.jgap.impl.FixedBinaryGene,4,30,23,8,10,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,13,No,No,No,No,five,one
+Data.org.jgap.impl.GaussianMutationOperator,3,7,5,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,0,7,No,No,No,No,five,three
+Data.org.jgap.impl.IntegerGene,4,15,12,2,4,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,9,No,No,No,No,five,one
+Data.org.jgap.impl.MutationOperator,3,11,10,1,2,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,3,0,12,No,No,No,No,five,three
+Data.org.jgap.impl.WeightedRouletteSelector,7,10,7,1,1,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,5,0,7,No,No,No,No,five,three
+Data.org.jgap.Chromosome,8,39,34,8,11,0,0,0,0,0,0,0,0,0,10,2,0,0,0,1,5,4,38,No,No,No,No,five,one
+Data.org.jgap.Configuration,49,57,51,14,23,0,0,0,0,0,0,0,0,0,22,43,0,0,0,13,13,92,44,No,No,No,No,five,five
+Data.org.jgap.FitnessFunction,3,3,2,0,2,0,0,0,0,0,0,0,0,0,2,5,0,0,0,3,1,7,2,No,No,No,No,five,three
+Data.org.jgap.Genotype,4,23,19,2,8,0,0,0,0,0,0,0,0,0,8,4,0,0,0,1,3,7,21,No,No,No,No,five,one
+Data.org.jgap.Population,6,30,24,4,6,0,0,0,0,0,0,0,0,0,9,22,0,0,0,2,4,36,25,No,No,No,No,five,one
+Data.org.jgap.Gene,18,3,68,11,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.org.jgap.GeneticOperator,1,0,6,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.org.jgap.INaturalSelector,3,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.javaclient2.extra.Controller,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,four
+Data.javaclient2.extra.HeadingControl,9,13,11,5,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,4,Yes,No,No,No,five,four
+Data.javaclient2.extra.PController,1,4,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.PDController,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.PIController,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.PIDController,3,8,8,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.PositionControl,9,11,10,3,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,5,Yes,No,No,No,five,four
+Data.javaclient2.extra.PositionGeometryTools,0,6,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,8,No,No,No,No,five,one
+Data.javaclient2.structures.blobfinder.PlayerBlobfinderBlob,10,20,20,10,10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,No,No,No,No,five,one
+Data.javaclient2.structures.bumper.PlayerBumperDefine,3,6,6,3,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,2,2,No,No,No,No,five,one
+Data.javaclient2.structures.bumper.PlayerBumperGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,No,No,No,No,five,one
+Data.javaclient2.structures.fiducial.PlayerFiducialItem,3,6,6,3,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,2,4,No,No,No,No,five,one
+Data.javaclient2.structures.ir.PlayerIrPose,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,No,No,No,No,five,one
+Data.javaclient2.structures.laser.PlayerLaserConfig,6,12,12,6,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,No,No,No,No,five,one
+Data.javaclient2.structures.laser.PlayerLaserGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,No,No,No,No,five,one
+Data.javaclient2.structures.planner.PlayerPlannerWaypointsReq,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,No,No,No,No,five,one
+Data.javaclient2.structures.player.PlayerDeviceDevlist,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,No,Yes,No,No,five,one
+Data.javaclient2.structures.player.PlayerDeviceDriverInfo,3,6,6,3,3,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,No,No,No,No,five,one
+Data.javaclient2.structures.position1d.PlayerPosition1dData,4,8,8,4,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,No,No,No,No,five,one
+Data.javaclient2.structures.position1d.PlayerPosition1dGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,No,No,No,No,five,one
+Data.javaclient2.structures.position2d.PlayerPosition2dGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,No,No,No,No,five,one
+Data.javaclient2.structures.position3d.PlayerPosition3dGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,1,4,No,No,No,No,five,one
+Data.javaclient2.structures.simulation.PlayerSimulationPose2dReq,3,6,6,3,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,No,No,No,No,five,one
+Data.javaclient2.structures.sonar.PlayerSonarGeom,2,4,4,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,2,No,No,No,No,five,one
+Data.javaclient2.structures.wifi.PlayerWifiLink,12,24,24,12,12,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,No,No,No,No,five,one
+Data.javaclient2.AIOInterface,2,5,5,1,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.AudioDSPInterface,5,10,10,1,5,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,7,No,No,No,No,five,one
+Data.javaclient2.AudioMixerInterface,3,6,6,1,3,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,1,1,4,No,No,No,No,five,one
+Data.javaclient2.BlinkenlightInterface,2,9,9,5,2,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,1,1,5,No,No,No,No,five,one
+Data.javaclient2.BlobfinderInterface,3,7,6,2,2,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,1,1,6,No,No,No,No,five,one
+Data.javaclient2.BumperInterface,5,9,8,0,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,No,No,No,No,five,one
+Data.javaclient2.CameraInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.DIOInterface,2,5,5,1,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.FiducialInterface,9,16,15,2,8,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,3,1,7,No,No,No,No,five,one
+Data.javaclient2.GPSInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.GripperInterface,5,9,9,1,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,No,No,No,No,five,one
+Data.javaclient2.IRInterface,5,9,9,1,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,No,No,No,No,five,one
+Data.javaclient2.JoystickInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.LaserInterface,9,16,15,2,9,0,0,0,0,0,0,0,0,0,6,1,0,0,0,0,4,1,9,No,No,No,No,five,one
+Data.javaclient2.LocalizeInterface,5,9,8,1,4,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,6,No,No,No,No,five,one
+Data.javaclient2.LogInterface,3,9,8,3,2,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,1,1,4,No,No,No,No,five,one
+Data.javaclient2.MapInterface,7,13,12,0,6,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,3,1,7,No,No,No,No,five,one
+Data.javaclient2.MComInterface,3,11,11,1,2,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,1,1,9,No,No,No,No,five,one
+Data.javaclient2.PlannerInterface,5,10,9,2,5,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,6,No,No,No,No,five,one
+Data.javaclient2.PlayerClient,21,64,56,1,8,0,0,0,0,0,0,0,0,0,46,36,0,0,0,1,9,36,44,No,No,No,No,five,three
+Data.javaclient2.PlayerDevice,6,11,9,3,3,0,0,0,0,0,0,0,0,0,6,1,0,0,0,2,5,0,7,No,No,No,No,five,three
+Data.javaclient2.Position2DInterface,5,24,21,11,7,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,8,No,No,No,No,five,six
+Data.javaclient2.Position3DInterface,5,23,21,10,7,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,8,No,No,No,No,five,one
+Data.javaclient2.PowerInterface,3,6,5,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,4,No,No,No,No,five,one
+Data.javaclient2.PtzInterface,5,12,11,2,4,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,2,1,6,No,No,No,No,five,one
+Data.javaclient2.SimulationInterface,5,10,9,2,5,0,0,0,0,0,0,0,0,0,6,1,0,0,0,0,2,1,8,No,No,No,No,five,one
+Data.javaclient2.SonarInterface,5,9,9,1,4,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,2,1,5,No,No,No,No,five,one
+Data.javaclient2.SoundInterface,0,2,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,No,No,No,No,five,one
+Data.javaclient2.SpeechInterface,0,2,2,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,1,2,No,No,No,No,five,one
+Data.javaclient2.SpeechRecognitionInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.WaveformInterface,2,4,4,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,3,No,No,No,No,five,one
+Data.javaclient2.WiFiInterface,3,7,7,0,2,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,1,1,4,No,No,No,No,five,one
+Data.brain.bo.AbstractBusinessObject,0,5,4,0,2,0,0,0,0,0,0,0,0,0,1,9,0,0,0,6,0,9,2,No,No,No,No,five,six
+Data.brain.bo.PortfolioData,6,12,11,0,8,0,0,0,0,0,0,0,0,0,5,3,0,0,0,0,4,3,14,No,No,No,No,five,one
+Data.brain.bo.TickerData,7,7,7,0,4,0,0,0,0,0,0,0,0,0,4,3,0,0,0,0,4,2,9,No,No,No,No,five,one
+Data.brain.bo.TickerValue,5,2,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,No,No,No,No,five,one
+Data.brain.bo.UserData,4,8,5,0,5,0,0,0,0,0,0,0,0,0,6,5,0,0,0,1,4,3,11,No,No,No,No,five,one
+Data.brain.gui.charts.AbstractChartingTool,2,4,4,1,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,2,0,2,No,No,No,No,five,six
+Data.brain.gui.charts.ChartingToolsFacade,6,5,5,0,3,0,0,0,0,0,0,0,0,0,7,1,0,0,0,1,6,0,5,No,No,No,No,five,six
+Data.brain.gui.charts.PortfolioChartingTool,2,4,4,1,0,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,2,1,3,No,No,No,No,five,three
+Data.brain.gui.charts.TickerChartingTool,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+Data.brain.gui.charts.UserChartingTool,0,3,2,0,1,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,3,No,No,No,No,five,three
+Data.brain.gui.tree.TreePortfolioBrowser,2,5,5,1,0,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,2,1,4,No,No,No,No,three,five
+Data.brain.Main,5,5,5,1,1,0,0,0,0,0,0,0,0,0,8,1,0,0,0,1,5,0,4,No,No,No,No,four,four
+Data.dal.DataFeed,8,6,4,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,6,0,2,No,No,No,No,five,six
+Data.dal.Db,3,9,9,0,5,0,0,0,0,0,0,0,0,0,4,1,0,0,0,1,2,0,14,No,No,No,No,five,one
+Data.dal.ResourceBundleHandler,6,9,8,1,3,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,3,0,10,No,No,No,No,five,four
+Data.ga.GAAlgorithm,1,4,3,0,1,0,0,0,0,0,0,0,0,0,4,2,0,0,0,2,1,0,10,No,No,No,No,three,five
+Data.ga.GAEnumAllelesSet,9,18,15,6,7,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,6,0,9,No,No,No,No,five,one
+Data.ga.Genome,1,3,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,No,No,No,No,three,one
+Data.ga.RankSelector,4,12,12,3,5,0,0,0,0,0,0,0,0,0,5,3,0,0,0,1,3,3,7,No,No,No,No,five,three
+Data.ga.UniformCrossover,2,3,3,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,2,0,2,No,No,No,No,five,three
+Data.ga.VectorAllelesGenome,1,2,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,3,No,No,No,No,five,one
+Data.ga.VectorGenome,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,No,No,No,No,three,one
+Data.gaPortfolio.PortfolioAlgorithm,2,8,8,1,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,3,No,No,No,No,five,three
+Data.gaPortfolio.SharpePortfolioEvaluator,0,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+'UML Model.Logical View.cl.utfsm.acs.acg.core.DAOManager',3,4,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmSystemManager',6,5,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,4,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.CategoriesManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.SourcesManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.ReductionsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,Yes,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSCategoryDAOImpl',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,Yes,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSSourceDAOImpl',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,Yes,No,five,five
+'UML Model.Logical View.AbstractBaseObject',4,1,1,0,0,0,1,4,34,0,0,5,0,0,0,0,1,1,0,0,1,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractAuditableObject',1,0,0,0,0,0,1,22,28,2,2,3,2,9,0,0,2,2,0,2,1,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractPlate',1,1,1,0,0,0,1,2,2,4,4,1,4,23,0,1,1,1,0,1,1,2,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',2,0,0,0,0,0,0,3,3,3,3,1,2,10,0,0,1,1,0,2,2,0,0,No,No,No,No,five,six
+'UML Model.Logical View.User',2,0,0,0,0,0,0,0,0,3,3,0,3,14,0,0,0,0,0,2,1,3,0,No,No,No,Yes,two,one
+'UML Model.Logical View.Measurement',3,2,2,0,0,0,0,0,0,4,4,0,4,21,0,0,2,2,0,1,3,0,0,No,No,No,Yes,five,one
+'UML Model.Logical View.Result',2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,No,No,No,Yes,five,one
+'UML Model.Logical View.ResultType',1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,0,0,0,No,Yes,No,No,five,one
+'UML Model.Logical View.AbstractAnnotatableObject',1,0,0,0,0,0,1,1,29,1,1,4,1,4,0,0,2,2,0,1,1,0,0,No,Yes,No,No,five,six
+'UML Model.Logical View.AbstractAnnotationInstance',2,0,0,0,0,0,0,3,3,1,1,1,1,4,0,0,3,3,0,1,2,1,0,No,Yes,No,No,five,six
+'UML Model.Logical View.FloatAnnotation',1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,0,1,0,No,Yes,No,No,five,one
+'UML Model.Logical View.TextAnnotation',1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,0,1,0,No,Yes,No,No,five,one
+'UML Model.Logical View.EnumAnnotation',1,1,1,0,0,0,0,0,0,2,2,0,1,6,0,0,1,1,0,0,1,1,0,No,Yes,No,No,five,one
+'UML Model.Logical View.AuditLog',5,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.Instrument',1,1,1,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,1,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.SampleContainer',3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.DrugSample',2,1,1,0,0,0,0,0,0,4,4,0,2,12,0,0,0,0,0,1,1,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.CellSample',2,1,1,0,0,0,0,0,0,4,4,0,2,12,0,0,1,1,0,1,2,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.DrugOrigin',3,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,1,1,0,1,1,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.SampleMarker',2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,2,2,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.WorkList',2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,No,Yes,No,No,two,one
+'UML Model.Logical View.AbstractOperation',1,0,0,0,0,0,0,1,1,3,3,1,2,10,0,0,0,0,0,1,1,0,0,No,No,No,No,two,six
+'UML Model.Logical View.PlateLayout',2,2,2,0,0,0,1,0,0,4,4,0,4,23,2,1,0,0,0,2,2,3,0,No,No,No,No,two,three
+'UML Model.Logical View.PlateType',4,0,0,0,0,0,0,0,0,3,3,0,2,10,2,0,0,0,0,2,2,3,0,No,Yes,No,No,two,one
+'UML Model.Logical View.LayoutWell',2,2,2,0,0,0,1,0,0,4,3,0,2,13,0,0,0,0,0,2,2,0,0,No,No,No,No,two,three
+'UML Model.Logical View.LayOutMarker',1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,No,No,No,Yes,two,three
+'UML Model.Logical View.Well',4,2,2,0,0,0,1,0,0,4,3,0,2,13,0,0,2,2,0,3,3,0,0,No,No,No,No,two,three
+'UML Model.Logical View.CellOrigin',1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,1,0,0,No,No,No,No,two,five
+'UML Model.Logical View.MasterPlate',1,1,1,0,0,0,0,0,0,5,5,0,5,24,2,3,0,0,0,0,0,0,0,No,No,No,Yes,two,six
+'UML Model.Logical View.Annotation',2,1,1,0,0,0,0,0,0,3,3,0,2,10,1,1,0,0,0,1,1,0,0,No,Yes,No,No,two,five
+'UML Model.Logical View.PlateFunction',5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,2,0,0,No,No,No,No,two,three
+'UML Model.Logical View.WellFunction',2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,No,No,No,No,two,three
+'UML Model.Logical View.AbstractWell',3,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,1,1,0,0,No,No,No,No,two,six
+'UML Model.Logical View.AbstractBasePlate',3,0,0,0,0,0,0,2,4,3,3,2,2,10,0,0,0,0,0,1,1,0,0,No,No,No,Yes,two,six
+'UML Model.Logical View.Plate',2,0,0,0,0,0,0,0,0,5,5,0,5,24,0,1,1,1,0,0,0,0,0,No,No,No,Yes,two,five
+'UML Model.Logical View.Folder',1,0,0,0,0,0,0,3,3,3,3,1,2,10,0,0,0,0,0,0,1,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.UniqueFolder',1,0,0,0,0,0,0,0,0,4,4,0,2,11,0,0,0,0,0,0,0,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.PickList',2,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,1,2,0,0,No,Yes,No,Yes,two,one
+'UML Model.Logical View.Picking',2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,No,No,No,Yes,two,three
+'UML Model.Logical View.ExportScript',3,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,0,0,0,0,3,0,0,No,No,No,No,two,three
+'UML Model.Logical View.PatientSample',1,0,0,0,0,0,0,0,0,4,4,0,2,12,0,0,1,1,0,1,1,0,0,No,No,No,Yes,two,one
+'UML Model.Logical View.PatientOrigin',1,0,0,0,0,0,0,0,0,3,3,0,2,10,0,0,1,1,0,1,1,0,0,No,No,No,No,two,five
+'UML Model.Logical View.AbstractURLGrabber',2,7,7,1,2,0,1,3,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.WgetURLGrabber',0,1,1,0,0,0,0,0,0,1,1,0,7,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+'UML Model.Logical View.TestURLGrabber',0,2,2,1,0,0,0,0,0,1,1,0,7,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+'UML Model.Logical View.JSURLGrabber',0,2,2,0,0,0,0,0,0,1,1,0,7,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+'UML Model.Logical View.ShneeParser',0,2,2,0,0,0,0,0,0,1,1,0,12,4,0,0,0,0,0,0,0,0,0,No,No,No,No,five,three
+'UML Model.Logical View.AbstractMarkupLangParser',4,12,10,2,3,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,2,No,No,No,No,three,three
+'UML Model.Logical View.AbstractNode',2,6,6,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,No,No,No,Yes,five,three
+'UML Model.Logical View.BitysNode',1,5,5,0,0,0,0,0,0,1,1,0,6,2,0,0,0,0,0,0,1,0,2,No,No,No,Yes,five,three
+'UML Model.Logical View.URLGrabber',5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.MarkupLangParser',9,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.Node',6,2,7,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,six
+'UML.Logical View.taxistation.MainClass',0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,No,No,No,No,five,four
+'UML.Logical View.taxistation.utils.Accumulator',1,3,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,No,five,three
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.ShutdownController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.SortTaxiStationController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.CostOfStationController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.ConsoleController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,1,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.AbstractTaxiStationController',2,0,0,0,0,0,1,5,5,0,0,1,0,0,0,0,0,1,0,0,2,0,0,Yes,No,No,No,three,four
+'UML.Logical View.taxistation.view.concrete.ConsoleView',2,3,3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,No,No,No,No,five,three
+'UML.Logical View.taxistation.model.TaxiStation',2,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,3,No,No,No,Yes,four,three
+'UML.Logical View.taxistation.model.cars.concrete.PassengerCar',1,1,1,0,0,0,0,0,0,1,1,0,5,6,0,0,0,0,0,0,0,0,0,No,No,No,Yes,four,one
+'UML.Logical View.taxistation.model.cars.AbstractCar',6,5,5,0,0,0,2,1,1,0,0,1,0,0,0,0,0,1,0,0,1,3,0,No,No,No,No,four,one
+'UML Model.Logical View.Map',4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,0,1,1,0,0,No,No,No,Yes,three,one
+'UML Model.Logical View.Robot',6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,2,0,2,0,0,0,No,No,No,Yes,five,one
+'UML Model.Logical View.Landmark',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,No,No,No,Yes,four,one
+'UML Model.Logical View.MapView',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,No,No,No,No,five,three
+'UML Model.Logical View.RobotView',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0,0,No,No,No,No,five,three
+'UML Model.Logical View.LandmarkView',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,No,No,No,No,five,three
+'UML Model.Logical View.SlamController',1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,No,No,No,No,five,four
+'UML.Logical View.ua.plants.Main',0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,No,No,No,No,five,four
+'UML.Logical View.ua.plants.generated.ObjectFactory',0,6,6,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,5,No,No,Yes,Yes,four,three
+'UML.Logical View.ua.plants.generated.GreenHouse',1,4,4,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,4,3,No,No,No,Yes,five,one
+'UML.Logical View.ua.plants.parser.dom.DOMParser',0,5,0,0,0,0,0,0,0,1,1,0,10,2,0,1,0,0,0,0,0,0,10,No,No,No,No,five,three
+'UML.Logical View.ua.plants.parser.dom.DOMParserFactory',0,1,1,0,1,0,0,0,0,1,1,0,6,0,1,0,0,0,0,0,0,0,1,No,No,Yes,No,four,three
+'UML.Logical View.ua.plants.parser.sax.SAXParser',1,1,0,0,0,0,0,0,0,1,1,0,5,1,0,1,0,0,0,0,0,0,2,No,No,No,No,five,three
+'UML.Logical View.ua.plants.parser.sax.SAXParserFactory',0,1,1,0,1,0,0,0,0,1,1,0,2,0,1,0,0,0,0,0,0,0,1,No,No,Yes,No,four,three
+'UML.Logical View.ua.plants.parser.AbstractXMLParser',1,5,2,0,0,0,1,5,3,0,0,1,0,0,0,0,0,0,0,0,1,0,6,No,No,No,No,five,three
+'UML.Logical View.ua.plants.parser.stax.StAXParser',0,1,0,0,0,0,0,0,0,1,1,0,10,2,0,1,0,0,0,0,0,0,2,No,No,No,No,five,three
+'UML.Logical View.ua.plants.parser.stax.StAXParserFactory',0,1,1,0,1,0,0,0,0,1,1,0,4,0,1,0,0,0,0,0,0,0,1,No,No,Yes,No,four,three
+'UML.Logical View.ua.plants.parser.XMLParserFactory',0,2,2,0,2,0,0,6,3,0,0,1,0,0,0,0,0,1,0,0,0,0,1,No,No,Yes,No,four,three
+'UML.Logical View.ua.plants.parser.XMLParser',2,0,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.objectcourseend.SmartPostManager',10,15,12,1,6,0,0,0,0,1,1,0,0,0,2,0,2,2,0,0,3,0,2,Yes,No,No,No,five,four
+'UML Model.Logical View.objectcourseend.ObjectCourseEnd',3,2,2,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,2,0,1,No,No,No,No,five,five
+'UML Model.Logical View.objectcourseend.SaxXML',4,6,6,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,No,No,No,No,three,five
+'UML Model.Logical View.objectcourseend.FXMLMainControl',12,10,1,0,0,0,0,0,0,1,1,0,0,0,0,0,3,3,0,0,10,0,11,Yes,No,No,No,five,four
+'UML Model.Logical View.objectcourseend.FXMLPackagesControl',9,3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,5,0,4,Yes,No,No,No,five,four
+'UML Model.Logical View.objectcourseend.Class_3',0,2,2,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,no,No,No,No,three,three
+'UML Model.Logical View.objectcourseend.Class_1',0,2,2,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,No,No,No,No,three,three
+'UML Model.Logical View.objectcourseend.Class_2',0,1,1,0,0,0,0,0,0,1,1,0,4,6,0,0,0,0,0,0,0,0,3,No,No,No,No,three,three
+'UML Model.Logical View.objectcourseend.AbstractPackage',6,4,4,0,0,0,0,3,3,0,0,1,0,0,0,2,0,0,0,0,3,4,3,No,No,No,No,five,six
+'UML Model.Logical View.objectcourseend.Item',5,4,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,0,No,No,No,No,five,one
+'UML Model.Logical View.objectcourseend.SmartPost',6,7,6,0,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,1,9,3,No,No,No,No,five,one
+'UML Model.Logical View.objectcourseend.Storage',1,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,2,No,No,No,No,five,one
+'UML Model.Logical View.Order',5,7,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,2,No,No,No,No,five,two
+'UML Model.Logical View.Customer',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,four,six
+'UML Model.Logical View.Employee',2,0,0,0,0,0,0,2,7,0,0,2,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,six
+'UML Model.Logical View.MenuItem',2,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,2,0,No,No,No,No,five,six
+'UML Model.Logical View.Topping',1,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,1,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.BaseItem',2,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,three
+'UML Model.Logical View.FunctionalEmployee',0,2,2,0,0,0,0,2,2,1,1,1,0,2,0,0,0,0,0,0,0,0,0,No,No,No,No,five,three
+'UML Model.Logical View.PerformanceEmployee',0,1,1,0,0,0,0,3,3,1,1,1,0,2,0,0,0,0,0,0,0,0,1,No,No,No,No,five,three
+'UML Model.Logical View.Manager',0,2,2,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,four,four
+'UML Model.Logical View.Cashier',0,0,0,0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+'UML Model.Logical View.Cook',0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+'UML Model.Logical View.Prep',0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,No,No,No,No,five,three
+'UML Model.Logical View.Delivery',0,0,0,0,0,0,0,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,No,No,No,No,five,three
+untitledModel.User,6,7,6,0,1,0,0,2,2,0,0,1,0,0,0,0,6,6,0,0,3,3,0,No,No,No,Yes,five,one
+untitledModel.NormalUser,0,1,1,0,0,0,0,0,0,1,1,0,7,6,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.PremiumUser,1,1,1,0,0,0,0,0,0,1,1,0,7,6,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.GroupPrivacy,1,1,1,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,1,0,1,No,No,No,No,five,six
+untitledModel.PublicPrivacy,1,2,2,1,1,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,No,No,No,No,five,three
+untitledModel.ClosedPrivacy,0,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,1,No,No,No,No,five,three
+untitledModel.IGroup,1,4,4,2,0,0,0,1,1,0,0,1,0,0,0,0,3,3,0,0,1,1,1,No,No,No,No,five,six
+untitledModel.Group,3,3,3,1,0,0,0,0,0,1,1,0,4,1,0,0,1,1,0,0,0,0,1,No,No,No,No,five,five
+untitledModel.Message,0,2,2,0,0,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,0,0,0,No,No,No,Yes,five,six
+untitledModel.ChatMessage,1,1,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,1,0,0,No,No,No,Yes,five,three
+untitledModel.GroupChatMessage,2,1,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,1,0,0,No,No,No,Yes,five,three
+untitledModel.Post,1,1,1,0,0,0,0,3,6,0,0,2,0,0,0,0,2,2,0,1,1,1,0,No,No,No,Yes,five,six
+untitledModel.UserPost,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.PagePost,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.PrivacyPost,1,3,3,1,0,0,0,3,3,1,1,1,1,1,0,0,0,0,0,0,1,0,1,No,No,No,Yes,five,three
+untitledModel.PublicPost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.PrivatePost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.CustomPrivacyPost,0,1,1,1,0,0,0,0,0,2,2,0,4,2,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.IPage,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,No,No,No,No,five,six
+untitledModel.Page,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,2,2,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.Timeline,0,1,1,0,1,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,six
+untitledModel.PublicTimeline,0,2,2,0,2,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.ProfileTimeline,0,1,1,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+untitledModel.UserModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,two
+untitledModel.PageModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,two
+untitledModel.GroupModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,two
+untitledModel.MessageModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,two
+untitledModel.PostModel,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,two
+untitledModel.IHashtag,0,3,3,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+untitledModel.Hashtag,0,3,3,0,0,0,0,0,0,1,1,0,3,0,0,0,0,0,0,0,0,0,0,No,No,No,Yes,five,three
+'UML.Logical View.Talon',5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Product',4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,No,No,No,Yes,five,one
+'UML.Logical View.state',2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Contract',4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Department',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,No,No,No,Yes,five,one
+'UML.Logical View.amount',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,one
+'UML.Logical View.User',7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Role',2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Organization',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Customer',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Price',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,No,No,No,Yes,five,one
+'UML.Logical View.Talon::issue',3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,five,one
+'UML.Logical View.Talon::repaid',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No,No,No,No,five,one
+'UML.Logical View.Talon::Operation',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No,No,No,No,five,three
+'UML.Logical View.Product::Operation',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,No,No,No,No,five,three
+Data.model.Primitive,23,8,7,0,6,0,0,?,0,0,0,0,0,0,1,3,?,0,0,2,1,5,7,No,No,No,No,five,one
+Data.model.ActionLanguage,2,2,13,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,three
+Data.model.Association,6,1,19,6,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,four,two
+Data.model.AssociationClass,2,1,9,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.AssociationEnd,13,1,7,9,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,two
+Data.model.AssociationEndPersistence,3,1,8,1,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,three
+Data.model.AssociationEndPrimary,4,1,8,4,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.AssociationEndSecondary,4,1,8,4,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.Attribute,16,0,3,12,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,two
+Data.model.AttributePersistence,14,1,8,8,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.AttributeReferential,6,0,3,6,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,three
+Data.model.CallEvent,0,0,3,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.ChangeEvent,0,0,3,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.Class,17,3,40,17,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,two
+Data.model.ClassPersistence,5,1,8,5,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,two
+Data.model.DataType,3,0,3,3,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,two
+Data.model.Event,2,0,6,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,six
+Data.model.ExceptionEvent,0,0,3,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.FinalState,2,1,8,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.FreeType,6,1,8,4,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.FromState,1,1,7,1,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.model.Identifier,0,0,1,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.model.IdentifierNonPrimary,2,0,3,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,three
+Data.model.IdentifierParticipant,0,0,1,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.model.IdentifierPrimary,2,2,14,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,three
+Data.model.Index,1,0,3,1,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,one
+Data.model.InitialState,2,1,8,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.ObjectConstraintLanguage,2,3,18,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.Operation,2,0,3,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,two
+Data.model.OperationSignature,5,0,3,3,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.Package,5,0,18,5,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,two
+Data.model.Parameter,4,0,3,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.PrimitiveType,14,1,8,10,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.Procedure,2,1,8,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.SignalEvent,0,2,13,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,one
+Data.model.Specialization,1,0,3,1,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.SpecializationGroup,3,0,3,3,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.State,4,0,3,4,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,two
+Data.model.Stately,0,0,1,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.model.StateMachine,8,2,28,8,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,two
+Data.model.System,14,0,13,14,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,Yes,five,two
+Data.model.TimerEvent,2,0,3,0,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.ToState,2,1,7,2,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.model.Transition,6,0,3,6,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,one
+Data.model.Type,0,2,11,0,0,0,0,?,0,0,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.org.jgap.Configuration,44.277759,35.81313,49.333172,5.434726,6.652989,0,0,0,0,0,0,0,0,0,14.450365,18.499138,0,0,0,2.448844,8.047598,91.558419,9.909857,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.743984,4.715955,4.036543,1,0,0,0,0,0,0.161043,0.178055,0,3.895336,0.245427,4.843833,0.782398,0.432007,0.233156,0,0.961673,0.815242,0.344826,3.640483,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.172497,3.037785,3,0.362896,0.121571,0,0,0,0,0.277937,0.340915,0,0.466681,0.13683,1.815642,1.010761,0.015384,0.358995,0,0.397686,0.890159,0,5.259466,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.613907,0.764728,2.333749,0.225022,0,0,0,0,0,0.00876,0.63119,0,3.521429,0.707044,0,0,0.987102,0.153246,0,0.176019,0,0,0.481862,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.190348,1.18174,0.568018,0,0,0,0,0,0,0.366771,0.563477,0,0,0,0,0,0.970622,0.863258,0,0.156325,0.872869,0,0.299126,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.249954,4.582923,2.5662,0,0.123804,0,0,0,0,0.246486,0.248489,0,0,0,0,0,0,0,0,1,0,0,0.74337,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.274774,0,0,0,0,0,0,0,0,2.232112,2.275993,0,0.86997,9.501359,0,0,0,0,0,1,0.062326,0,0,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.269389,0.236245,0.677331,0,0,0,0,0,0,0.842773,0.666149,0,0.437291,0.33746,0.003477,0.760894,0,0,0,1,0.42777,0,0,No,No,No,No,five,five
+'UML Model.Logical View.CellOrigin',1.60753,0,0,0,0,0,0,0,0,4.080596,3.406115,0,3.261913,16.700446,0,0.664342,1,1,0,0.679807,0.416175,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.357325,0.059266,1.416308,0,0,0,0,0,0,1.810738,1.38022,0,1.302037,9.469065,0,0,1,1,0,0.313569,1.224574,0,0.707614,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.983463,4.404125,4.123158,0,0.933151,0,0,0,0,1,1,0,0,0,0,0,0.584797,0.804556,0,0.370299,0.256413,0,1,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,3.899625,3.543173,3.756421,0.379863,1.784591,0,0,0,0,1,1,0,0.375434,0.959682,0,0,0.833772,0.255716,0,0.283508,0,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.06023,4.7011,4.112988,0.065854,1.126743,0,0,0,0,1,1,0,0.250112,0.951591,0,0,0.054197,0.052808,0,0.814716,0,0,1,No,No,No,No,five,five
+Data.org.jgap.Configuration,48.525541,48.367626,50.939602,8.356621,11.381531,0,0,0,0,0,0,0,0,0,17.928786,28.707328,0,0,0,3.72276,10.770337,91.997857,14.946555,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.788794,4.957549,4.572701,0.491307,0.650243,0,0,0,0,0.161043,0.178055,0,0.243567,0.233546,4.843833,0.782398,0.023413,0.012313,0,0.992899,0.815242,0.344826,3.640483,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,0.560287,4.560897,2.884976,0,0.230324,0,0,0,0,0.068508,0.084714,0,0,0,1.815642,1.010761,0,0,0,1.198843,0.890159,0,5.124292,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.038952,0.301237,0.441871,0,0,0,0,0,0,0.003213,0.355661,0,0,0,0,0,0.958103,0.132291,0,0.304828,0.107949,0,0.144138,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.080542,0.13959,0.192368,0,0,0,0,0,0,0.309105,0.37536,0,0.007873,0.278659,0.001877,0.488369,0,0,0,1,0.186694,0,0,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.038362,0.584115,0.998145,0.224839,0,0,0,0,0,0.002159,0.156844,0,1.18926,0.429413,0,0,0.445191,0.056568,0,0.853955,0,0,0.358202,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.259141,0.03815,0.011829,0,0,0,0,0,0,2.695593,2.60909,0,1.60564,9.973525,0,0,0.797563,0.527036,0,0.409328,1.210577,0,0.044429,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.856628,0.236245,0.677331,0,0,0,0,0,0,3.77703,3.315937,0,2.986002,16.474332,0.003477,0.919742,0.445181,0.130222,0,0.789927,0.665918,0,0,No,No,No,No,two,five
+'UML Model.Logical View.CellOrigin',1.845967,0,0,0,0,0,0,0,0,4.577348,3.729766,0,3.993018,20.194036,0,0.887334,1,1,0,0.462138,0.173201,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.06384,0.001756,1.002964,0,0,0,0,0,0,2.292828,1.688157,0,1.756424,9.971811,0,0,1,1,0,0.528813,1.050433,0,0.500717,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.059233,3.623446,3.121552,0.012434,0.52571,0,0,0,0,1,1,0,0.091582,0.644793,0,0,0.607299,0.814877,0,0.301688,0.256413,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.99834,4.693071,4.596386,0,1.885096,0,0,0,0,1,1,0,0,0,0,0,0.487587,0.205738,0,0.548824,0.205587,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.054184,3.307997,3.280629,0.420702,1.005387,0,0,0,0,1,1,0,0.602071,0.998048,0,0,0.842781,0.295021,0,0.230978,0,0,1,No,No,No,No,five,five
+Data.org.jgap.Configuration,40.8685,20.898752,5.794875,4.378758,3.637933,0,0,0,0,0.139202,0.142251,0,0.506272,0.218919,10.300681,16.19822,0.289279,0.120706,0,1.085461,5.296756,75.824294,9.074324,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.994921,4.704088,4.081043,0.512539,0.489229,0,0,0,0,0.295638,0.767516,0,2.494795,0.710387,3.73838,0.59417,0.23833,0.17802,0,0.910801,0.787377,0.307306,2.733101,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,3.172505,3.762671,4.025422,0.020434,0.879989,0,0,0,0,0.809737,0.880716,0,0.257738,0.08025,0.970257,0.334688,0.193229,0.75484,0,0.377928,0.559918,0,2.072416,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.634923,0.566738,1.654683,0.060644,0,0,0,0,0,0.065121,0.662648,0,1.114683,0.572911,0.002719,0.233495,0.358736,0.069607,0,0.878775,0.259262,0,0.082616,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.468718,1.525528,1.82309,0,0,0,0,0,0,0.453789,0.697468,0,0,0,0,0,0.994267,0.979439,0,0.067978,1.940339,0,0.536382,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.764731,4.415868,3.51361,0,0.391836,0,0,0,0,0.614481,0.721187,0,0,0,0,0,0.261904,0.533096,0,0.386959,0.201971,0,0.904009,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.338939,0.491836,0.850822,0,0,0,0,0,0,2.559589,2.428241,0,0.870267,9.874017,0.681773,0.962371,0,0,0,1,0.231409,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',2.493344,0.708603,1.435661,0,0,0,0,0,0,0.868091,0.761775,0,0.200383,0.092239,0.003016,0.733035,0.40849,0.06941,0,0.265733,0.987611,0,0.76046,No,No,No,No,five,five
+'UML Model.Logical View.CellOrigin',1.84449,0,0,0,0,0,0,0,0,4.775196,4.441744,0,4.969535,17.849362,0,0.892304,1,1,0,0.304902,0.216296,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.57637,0.045918,1.335955,0,0,0,0,0,0,2.692485,1.397101,0,1.900958,16.631707,0,0.016794,1,1,0,0.324646,0.877706,0,0.2285,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.302797,3.564193,3.479809,0,0.115663,0,0,0,0,1,1,0,0,0,0,0,0.698647,0.841964,0,0.310485,1.134827,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.906466,3.955952,3.762643,0.123724,1.019316,0,0,0,0,1,1,0,0.214542,0.426412,0,0,0.610941,0.350351,0,0.340105,0.012569,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.690053,4.860265,5.923874,0.032754,1.221352,0,0,0,0,1,1,0,0.220733,0.157733,0,0,0.032267,0.04819,0,0.971208,0,0,1,No,No,No,No,five,five
+.org.neuroph.core.Neuron,5.799054,21.740482,23.746352,3.364531,5.603343,0,0,1.783711,0.445248,0,0,1.681321,0,0,0,0,1.957702,1.714976,4.247945,0,0,31.004853,3.034225,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,18.159767,38.715955,31.774075,5.455445,14.462602,0,0,13.044687,15.829049,0,0,0.459603,0,0,5.523293,1.088011,0.567993,1.533688,0.660547,0.114981,3.554275,9.931007,18.599195,No,No,No,No,five,two
+.org.neuroph.core.Connection,0.413752,4,4,0,1.364713,0,0,0.81646,0.36313,0,0,0.73421,0,0,0,0,1.969231,1.282011,0.757522,0,0,2.406066,0.946548,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,1.795364,12.195996,6.44292,1.549955,4.016897,0,0,1,1,0,0,1,0,0,0,0,2,2,0.710575,0,0,13.044021,5.108826,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,3.873102,12.863911,15.011936,1.474209,3,0,0,0,0,0,0,0,0,0,3.238571,0.641837,0.029378,0.136742,1.045744,0.843675,0,23.872273,2.299126,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,1.875023,5.180898,6.2892,0.001633,2.876196,0,0,1.013922,1.57622,0,0,1.75885,0,0,0,0,1,1.630866,0,0,0,1.13771,1.283152,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,3.648642,17.494018,21.941538,4.721756,5.65792,0,0,0.555044,0.877953,0,0,0.424253,0,0,1.140547,0.70768,1.595126,1.054072,0,0.139503,0.311629,16.502209,18.309347,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,1.269389,5.417471,8.063985,0.487281,2.042648,0,0,0,0,0,0,0,0,0,0.020859,0.760894,0.445181,0.130222,0,0.343918,0,3.552267,2.249111,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,9.822589,18.499087,15.31503,6.574164,9,0,0,0,0,0,0,0,0,0,9.222725,1.664342,0,0,0,1.320193,6.751476,2.937338,13.888427,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,19.320065,37.059266,34.622307,5.277778,16.305269,0,0,3.650168,2.6816,0,0,0.514929,0,0,5.513337,1.592368,0.583743,0.739505,5.675952,0.940708,4.652557,12.225787,19.461932,No,No,No,Yes,five,two
+'UML Model.Logical View.Order',0.082686,5.196906,4.938421,0.81119,2.066849,0,0,0,0,0,0,0,0,0,0,0,0.415203,0.195444,0,0,0.384619,0.948248,0.547615,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0.899625,3.27577,2.991439,0,0.107704,0,0,0,0,0.253077,0.363674,0,0,0.080636,0,0,0,0,0,0,0.198217,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.330384,0.482294,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.487371,0.694281,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.312331,0.88842,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.636577,0.545782,0,0,0,0,0,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,5.801847,7.722323,17.247084,2.897533,1.50148,0,0,?,0,0.862581,0,0,0,0,0,0,?,0.849638,0.469809,0,0,8.804434,0.67703,No,No,No,No,five,two
+.org.neuroph.core.Neuron,1.703034,3.802973,5.174498,4.605876,1.324687,0,0,?,0.718266,0.511628,0,0.119416,0,0,0,0,?,1.325192,0.400732,0,0,0.349365,1.251912,No,No,No,No,five,two
+.org.neuroph.core.Neuron,7.36443,7.377539,13.20986,10.036288,2.377699,0,0,?,0.092116,0.573535,0,0.839862,0,0,0,0,?,0.355723,0,0,0,8.670422,6.581912,No,No,No,No,five,two
+.org.neuroph.core.Neuron,7.805899,6.749391,26.813329,4.960233,2.868813,0,0,?,0,0.838969,0,0,0,0,0,0,?,0.06941,0.371489,0,0,23.092111,1.520919,No,No,No,No,five,two
+.org.neuroph.core.Neuron,3.188699,12.078139,11.254062,4.82678,3.725127,0,0,?,0.776514,0.244511,0,0.164062,0,0,0,0,?,1.423122,0,0,0,20.055733,2.521324,No,No,No,No,five,two
+.org.neuroph.core.Neuron,3.875464,3.828782,3.794273,2.228481,1.637901,0,0,?,0,0.611541,0,0,0,0,0,0,?,0.152985,0.610948,0,0,1.924893,1.354166,No,No,No,No,five,two
+.org.neuroph.core.Neuron,2,5.24057,6.636184,2,4.380257,0,0,?,0.182854,0.621263,0,0.619286,0,0,0,0,?,0.382802,0,0,0,0.94014,2.784768,No,No,No,No,five,two
+.org.neuroph.core.Neuron,5.0816,11.986124,18.101809,5.674294,10.785599,0,0,?,2.781674,0.611731,0,0.170264,0,0,0,0,?,0.689708,1.604792,0,0,10.107305,6.539802,No,No,No,No,five,two
+.org.neuroph.core.Neuron,1.989435,0.490153,3.959658,1.98949,0.433362,0,0,?,0.213767,0.440087,0,0.736533,0,0,0,0,?,0.174919,0.667299,0,0,3.47755,1.739921,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.873729,2.725964,15.590564,5.636074,2.23984,0,0,?,0.438728,0.984153,0,0.203978,0,0,0,0,?,0.707252,0.508508,0,0,2.038765,0.608247,No,No,No,No,five,two
+.org.neuroph.core.Neuron,7.036628,9.363767,35.028031,13.705408,1.539104,0,0,?,13.871854,0.133955,0,0.246536,0,0,0,0,?,1.212908,2.345864,0,0,6.334275,6.443509,No,No,No,No,five,two
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9.100473,15,12,0.658867,6.578521,0,0,0,0,0.487087,0.913963,0,0,0,4.303702,0.416646,0.084597,1.523349,0,0.120737,5.199126,0.995147,2.738732,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,2,8.573932,6.518272,1.08911,4.268699,0,0,0,0,0,0,0,0,0,1.816437,2.347194,0,0,0,1.923346,0.815242,0.344826,6.161127,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,7.896261,5.037785,4.265155,1,1.243142,0,0,0,0,0,0,0,0,0,5.730447,2.010761,0,0,0,1.198843,2.329523,0.481213,4.473274,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,12.362916,25.391992,9.998753,0.225022,3.135175,0,0,0,0,0,0,0,0,0,9.276628,2.943042,0,0,0,0.176019,4.752658,2.298292,13.626964,No,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,10.682754,15.546083,10.863963,2.896834,5.964032,0,0,0,0,0,0,0,0,0,13.142143,1.07449,0,0,0,0.156325,6.381392,2.645379,24.017475,No,No,No,No,five,four
+Data.javaclient2.extra.Controller,3.750046,1.23618,1,0.000817,0,0,0,0,0,0,0,0,0,0,0,0,0,0.369134,0,0,0,0,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,11.175679,8.494018,10.941538,2.814504,2.67104,0,0,0,0,0,0,0,0,0,2.792628,0.87696,0,0,0,1.720995,1.937674,0.472345,4.062787,Yes,No,No,No,five,four
+Data.javaclient2.extra.PController,1,1.708735,3.031992,0.487281,1.521324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.656082,0,0.555967,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2.178662,5.940734,4.583692,1.444443,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.686431,0.673722,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.PController,5.950388,6.196906,6.407631,2.43357,4.466575,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.358969,0,2.90477,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,9.100375,14.27577,11.49572,2.240274,1.538522,0,0,0,0,0.746923,0.636326,0,0,0,2,0,1.667544,0.511433,0,0,2.603566,0,4.641081,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,5.06023,5,5,0.065854,3.253485,0,0,0,0,0,0,0,0,0,7.151037,0.014221,0,0,0,0.185284,5,0,4,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,6.246252,11.877633,11.844727,0.761887,5.265941,0,0,0,0,0,0,0,0,0,8.13607,0.129873,0,0,0,0.916763,4.521408,0.172498,9.600183,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,3.793489,2.402392,2.253632,0.521826,1.697407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.653831,2.89746,0,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,3.791216,5.530531,5.912981,1.887386,3.131007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.394531,0,1.00709,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.900924,1,1,0,0.499507,0,0,0,0,0.137419,0.306951,0,0,0.94411,0,0,0,0,0,0.434852,0,0.724861,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.383174,1,1,0,0.52446,0,0,0,0,0,0,0,0,0,0,0,0,0.177861,0,0.276944,0,0.666522,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.707239,1,1,0,0.956271,0,0,0,0,0,0,0,0,0,0,0,0,2.79177,0,0.734267,0,0.721628,0,No,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.711561,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1.225222,1.056734,0,0,0,0,0,0,1.388459,1.008332,0,0.611182,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.191401,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.912541,0,0,0,0,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1.839104,0.362982,0.51706,0,0.55996,0,0.011962,3.922354,2.806361,0,0,0.796022,0,0,0,0,0,0.646374,0,0.309762,1.703349,0.407753,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.005233,0.240097,0.847232,0,0,0,0,0,0,0,0,0,0,0,0.850674,0.048791,0.166165,2.212908,0,0,0.211572,0,0,No,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.646877,1,1,0,0.791233,0,0,0,0,0,0,0,0,0,0,0,0,0.640763,0,0.842641,0,0.176403,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9.155278,15,12,0.706676,6.994283,0,0,0,0,0.149863,0.78502,0,0,0,5.655852,0.058732,0.710683,1.327298,0,0.687668,4.920093,0.887283,6.450489,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,12,9.843471,2.109413,0.693617,0.498197,0,0,0,0,0.221636,0.08403,0,0,0,1.074515,2.223616,1.590271,0.516557,0,0.484829,8.588735,0.541738,6.220392,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,9.034557,4.369385,3.462463,0.142944,0.745485,0,0,0,0,0.641791,0.900844,0,0,0,1.846877,2.441283,0.480214,1.425495,0,0.947373,3.413327,0.173665,4.998635,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1.842437,1.353603,0,0,0,0,0,0,1.331106,1.125889,0,1.099127,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.100473,5.222319,1.072471,0,1.421479,0,0,0,0,0,0,0,0,0,7.53926,8.333415,0,0,0,3.637789,1.900437,7.009705,10,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,5.231953,6.573932,3.481728,0,0.845799,0,0,0.554121,0.032053,0,0,0.540397,0,0,4.843833,8.259183,0,0,0,3.846692,3,5.724132,9.161127,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2,1,1.795466,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,1.795364,1.254909,4.777916,1.450045,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,1,2,2.852028,2.525791,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.937512,2.76382,4.1446,0.00245,0,0,0,0.662026,0.907281,0.753514,0,0.706858,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePreProcessor,5.671151,1.068865,67.482193,6.082634,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.634694,2.291265,5.031992,0.974562,0,0,0,0.444457,0.691521,0.280924,0,0.288101,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.60753,0.416515,0.045004,1.285167,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.javaclient2.Position2DInterface,4.464013,23.407336,8.961385,8.222217,6.189481,0,0,0,0,0,0,0,0,0,3.181429,1,0,0,0,0.686431,2,0.555401,3.754319,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,0.983463,4.398969,4,0.37762,1.066849,0,0,0.156153,0.746197,0,0,0.879402,0,0,0.545925,6.528735,1.24561,0.586332,0,3.778208,0.871794,8.58598,1.273807,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,2,1.543173,4,1,0,0,0,0,0,0.746923,0,0,0,0,0.362441,0.78519,0,0,0,0.283508,0.396434,0,1.76072,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,5.759082,4.432967,4.629004,0.934146,1.309886,0,0,0,0,0,0,0,0,0,6.469398,1,0,0,0,1,4.917075,0,2.845563,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,7.835832,4.081578,6.883546,1,0,0.481088,0,0,0,0,0,0,0,0,4.544281,0,0,0,0,0,3.717888,0,1.733456,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.619533,1,1,0,0,0,0.732102,3.693914,33.587107,0,0,2.518977,0,0,0,0,1.512629,1.305719,0,0.346169,1,0.108811,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.552196,0,0,0,0,0,0.834442,3.553844,7.082692,0.526999,0.36197,2.418017,1.104556,5.27842,0,0,1.375338,0.22316,0,1.278565,0.478906,0,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractPlate',1,0.62536,0.590039,0,0,0,0.060463,1.29175,1.493424,3.932422,3.100136,1,2.439275,18.281911,0,0.69313,0.363423,0.454218,0,1,1,0.146816,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',1.900924,0.420145,0.876458,0,0.500493,0,0,2.762582,2.637906,2.587743,2.079147,1,1.521866,5.279451,0,0,1,1,0,1.434852,1.052932,0,0.338515,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.941414,0,0,0,0,0,0.930258,1.174611,13.19815,0.511628,0.371003,3.761168,0.872325,2.01174,0,0,1.104289,0.674808,0,1,0.21232,0,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractAnnotationInstance',0.766347,0.491836,0.850822,0,0.47554,0,0,2.938048,2.907884,0.573535,0.789715,1,0.999737,1.010613,0,0,2.911622,2.644277,0,0.276944,1.639356,0.666522,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.414477,0,0,0,0,0,0,1.543296,1.424943,2.516907,2.140706,1,0.916475,2.733327,0,0,0,0,0,1,1,0,0,No,No,No,No,two,six
+'UML Model.Logical View.AbstractPlate',1.603767,0.208704,0.535134,0,0,0,0,2.639152,2.329542,3.489021,3.700497,0.164062,2.052583,21.796464,1.850128,0.962552,0.225957,0.711561,0,1.102976,0.96055,0,0,No,No,No,No,five,six
+Data.org.jgap.INaturalSelector,4.750929,0,0,0,0,0.890586,0,0.994384,1.737671,0,0,0.87869,0,0,0,0,0,0,0,0.969756,0.570919,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',3,0,0,0,0,0,0,2,3.634292,1.86379,0.012607,1.380714,0.610022,8.027215,0,0,0,0,0,1,1,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePreProcessor,1.836799,5.08222,6.932127,0.325706,0.2024,0,0.148738,1.88107,1.88733,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.989435,0.122538,0.959658,0.502627,0,0.522399,0,0,0,0.559913,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,8.034625,0,0,1.409018,0,0.709351,0,0,0,0,0,0,0,0,0,0,0,0,0,0.309762,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,2.02093,1.759903,4.458304,1,0,0.227652,0,0,0,0.866045,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2,0.307527,1.731631,1,0,0.402028,0,0,0,0.300666,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,2.621112,0.282004,3.20037,0,0,0,0,2.26542,2.323676,0,0,1,0,0,0,1.882536,0,0,0,0,1.55993,2.225434,0.329707,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,4.760218,0,0,0,0,0.410849,0,0,0,0,0,0,0,0,0,0,0,0,0,0.757586,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',2,0,0,0,0,0,0,2,2.306884,0,0,1.933591,0,0,0,0,0,0,0,0.526313,0,0.34733,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractWell',1.661252,0.157563,0.646397,0,0.415307,0,0,2,2,0,0,1,0,0,0,0,0.340405,0.562061,0,0.231381,0.406296,0.458945,0.725828,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',2.252168,0.078424,0.919101,0,0.992378,0,0,2,2,0,0,1,0,0,0,0,0.282561,0.729589,0,1,1,0,0.600076,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePostProcessor,0.091346,2.392286,3.629452,0.522859,0,0,0,1.634411,1.924502,0,0,1,0,0,0,0,1.611052,2.516964,0,0.387586,0.288926,0.133035,0.387531,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePostProcessor,0.258865,2,2,0.320414,0,0,0,0.329288,0.764325,0.069074,0,0.08863,0,0,0,0,0.686587,0.298121,0,0.473078,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.Employee',0.288668,1,1,0,0.21247,0,0,2.231155,5.334199,0,0,1.949926,0,0,0,0,1.407246,1.086253,0,0.759243,0.962296,0.691719,0,No,No,No,Yes,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0,1,1,0,0.945099,0,0,1.127002,1.095642,0,0,1,0,0,0,0,1,1,0,0,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.MenuItem',0,2.830158,1.131364,0,0.825454,0,0,1.86062,1.209659,0,0,1,0,0,0,0,0.43211,0.203252,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.524891,2.873377,2.444193,0.156841,0,0,0,0.583513,0.447325,0.128149,0,0.853402,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.021421,1.639106,5.780298,0.164974,0.70122,0,0,?,0,0.021241,0,0,0,0,0.650043,8.816811,?,0,0,1.834234,2.493297,8.191755,8.408817,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.049052,1.192755,3.644519,0.837915,1.828424,0,0,?,0,0.483615,0,0,0,0,4.288285,0.349926,?,0,0,3.243164,2.001947,2.596095,5.549541,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.255973,5.081849,2.546224,0,1.759282,0,0,?,0,0.942365,0,0,0,0,0.3315,4.899971,?,0,0,2.675351,2.280399,3.140935,2.785471,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.819278,0.622278,3.870014,0.96142,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,0.464322,0.970385,1,0.996436,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2,1,4.413191,1.96171,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.572383,4.980782,5.374041,0,0.402645,0,0,?,0,0,0,0,0,0,1.702095,6.285332,?,0,0,2.137913,0.534775,7.221882,2.393085,No,No,No,No,five,six
+Data.org.jgap.Configuration,48.95233,53.482827,50.997811,10.281763,14.742294,0,0,0,0,0,0,0,0,0,19.804559,34.662314,0,0,0,4.842866,11.996165,91.99999,19.239098,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,0.928876,4.937637,3.981133,0.455445,0.13292,0,0,0,0,0.011033,0.015084,0,0,0,5.560142,1.002342,0,0,0,1.007621,1.342553,0.344826,4.134734,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,1.586248,4.962215,3.530311,0.362896,0.121571,0,0,0,0,0,0,0,0,0,6.184358,1.505381,0,0,0,1.198843,1.109841,0.518787,6.839644,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.007971,0.076788,0.343738,0,0,0,0,0,0,0.000028,0.22449,0,0,0,0,0,0.945745,0.020273,0,0.427191,0.01335,0,0.069455,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.00511,0.08248,0.054634,0,0,0,0,0,0,0.113371,0.211507,0,0.000142,0.230103,0.001013,0.313453,0,0,0,1,0.08148,0,0,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.002397,0.446159,0.426907,0.224655,0,0,0,0,0,0.000532,0.038974,0,0.401638,0.260797,0,0,0.200785,0.020881,0,0.974115,0,0,0.266276,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.245807,0.316601,0.007106,0,0,0,0,0,0,2.887271,2.862014,0,1.361684,9.993718,0.611083,0.28132,0,0,0,1,0.279312,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.658016,0.237586,1.000956,0,0,0,0,0,0,2.49149,1.979451,0,1.809681,9.972762,0.003477,0.760894,0.445181,0.130222,0,0.690863,1.028859,0,0.125328,No,No,No,No,two,five
+'UML Model.Logical View.CellOrigin',1.939547,0,0,0,0,0,0,0,0,4.805706,3.987696,0,4.416593,22.015583,0,0.962183,1,1,0,0.314165,0.072082,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.870429,0,0,0,0,0,0,0,0,2.54339,2.413634,0,1.60564,9.973525,0,0,0.416257,0.630248,0,1,0.789423,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.053288,2.786147,2.679744,0.079433,0.469089,0,0,0,0,1,1,0,0.220458,0.676272,0,0,0.934722,0.862216,0,0.085531,0.256413,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.999833,4.9297,4.950293,0,1.987624,0,0,0,0,1,1,0,0,0,0,0,0.406537,0.052611,0,0.676736,0.164836,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',2.856287,1.732527,2.752824,0.276058,0,0,0,0,0,0.344795,0.894685,0,3.551353,0.985818,0,0,0.987801,0.197962,0,0.143406,0,0,0.627902,No,No,No,No,five,five
+Data.org.jgap.Configuration,40.807431,21.034981,6.720932,4.378758,3.637933,0,0,0,0,0,0,0,0,0,11.664034,16.226481,0,0,0,1.120598,5.747381,75.93731,9.122238,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.153641,4.942851,4.597393,1,0,0,0,0,0,0.135207,0.050362,0,2.398699,0.08383,5.564129,0.834748,0.210548,0.161876,0,0.974941,0.855737,0.416116,3.764028,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.626636,3.92181,3.986972,0.504113,0.465146,0,0,0,0,0.290974,0.690307,0,1.374712,0.374001,2.710892,0.732113,0.085017,0.198213,0,0.767865,0.8366,0.297266,3.36917,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.595453,0.697063,1.786204,0.224888,0,0,0,0,0,0.008314,0.204343,0,1.701492,0.606283,0,0,0.642134,0.100481,0,0.754217,0,0,0.379404,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.234395,0.923349,1.520434,0.047036,0,0,0,0,0,0.325319,0.593918,0,0.266484,0.270446,0.000219,0.125853,0.478144,0.188942,0,0.564616,0.291742,0,0.225834,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.558813,4.426839,3.1427,0,0.212569,0,0,0,0,0.426204,0.545815,0,0,0,0,0,0.117295,0.353227,0,0.403178,0.159089,0,0.843923,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.722112,0,0,0,0,0,0,0,0,2.559589,2.428241,0,0.870267,9.874017,0,0,0.044189,0.177861,0,1,0.231409,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.399176,0.253651,0.542334,0,0,0,0,0,0,0.707578,0.577216,0,0.200383,0.092239,0.003016,0.733035,0.391375,0.009182,0,0.489558,0.313888,0,0.109611,No,No,No,No,five,five
+'UML Model.Logical View.CellOrigin',1.75149,0,0,0,0,0,0,0,0,4.455887,3.616408,0,3.980204,17.250321,0,0.815787,1,1,0,0.559765,0.299481,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.40959,0.045918,1.335955,0,0,0,0,0,0,1.974425,1.387684,0,1.170001,9.501053,0,0,0.153019,0.847015,0,0.33433,0.725876,0,0.2285,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.512366,4.110677,3.928214,0,0.216989,0,0,0,0,1,1,0,0,0,0,0,0.616015,0.811716,0,0.360637,0.698955,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.900183,3.741078,3.756526,0.20715,1.096762,0,0,0,0,1,1,0,0.306484,0.663358,0,0,0.63434,0.272034,0,0.320415,0.000616,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.67897,4.664709,4.122748,0.032754,1.105769,0,0,0,0,1,1,0,0.220733,0.157733,0,0,0.268895,0.118556,0,0.439358,0.221396,0,1,No,No,No,No,five,five
+Data.org.jgap.Configuration,47.293555,38.396913,27.597077,7.181199,7.045425,0,0,0,0,0.002206,0.118855,0,0.176791,0.017399,15.471511,23.991914,0.132958,0.042685,0,2.905825,9.958465,85.403039,13.160672,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.004127,4.967742,4.934722,0.510039,0.559262,0,0,0,0,0.021573,0.008657,0,0.177801,0.152782,5.315132,0.989383,0.00389,0.004846,0,0.995074,1.749339,0.510828,3.76918,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.135196,4.604932,3.78935,0.458395,0.435178,0,0,0,0,0.136798,0.552018,0,0.293987,0.146276,2.379766,0.750523,0.064701,0.063951,0,0.956127,0.834765,0.05421,3.971569,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.038454,0.564172,0.553074,0.06595,0,0,0,0,0,0.002317,0.312919,0,0.975263,0.331401,0,0,0.62745,0.106822,0,0.682445,0.056131,0,0.334676,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.009656,0.134128,0.12123,0,0,0,0,0,0,0.068509,0.031542,0,0.002857,0.006902,0.001204,0.126387,0,0,0,1,0.15376,0,0,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',0.038848,0.381207,0.336746,0.192699,0,0,0,0,0,0.11211,0.178511,0,1.172978,0.398996,0.001155,0.397416,0.106894,0.040319,0,0.923135,0.098741,0,0.000489,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.171358,0.032139,0.004183,0,0,0,0,0,0,2.899209,2.950789,0,1.783274,9.997402,0,0,0.526069,0.23081,0,0.545998,1.125021,0,0.012181,No,No,No,No,two,five
+'UML Model.Logical View.CellOrigin',1.849953,0.018527,0.622535,0,0,0,0,0,0,4.174162,3.616532,0,3.899148,19.44785,0.002136,0.887665,0.84323,0.365419,0,0.598977,0.440776,0,0,No,No,No,No,two,five
+'UML Model.Logical View.CellOrigin',1.844625,0,0,0,0,0,0,0,0,4.675671,3.93996,0,4.593631,17.907,0,0.891629,1,1,0,0.401195,0.203845,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.135054,0.031289,0.996863,0,0,0,0,0,0,2.311254,1.838676,0,1.5391,9.935585,0.209804,0.065904,0.686587,0.298121,0,0.777092,0.961388,0,0.067018,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.561076,3.901,3.487782,0.000971,0.497266,0,0,0,0,0.892603,0.743648,0,0.059849,0.495781,0,0,0.402565,0.5574,0,0.322218,0.25436,0,0.955145,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.996631,4.430223,4.463051,0,0.985413,0,0,0,0,1,1,0,0,0,0,0,0.53592,0.777114,0,0.382597,0.238263,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.058479,3.542436,3.293711,0.262766,0.85009,0,0,0,0,1,1,0,0.502351,0.168805,0,0,0.760929,0.730797,0,0.308502,0.554212,0,1,No,No,No,No,five,five
+Data.org.jgap.Configuration,45.136652,25.470009,30.92018,5.13326,5.375628,0,0,0,0,0.121363,0.022959,0,0.107204,0.031966,11.98098,28.177293,0.014991,0.110757,0,7.261836,6.639769,83.43364,31.099838,No,No,No,No,five,five
+Data.brain.gui.tree.TreePortfolioBrowser,2.990506,4.763438,4.117049,0.493058,0.545682,0,0,0,0,0.163902,0.760669,0,1.616414,0.606221,3.828204,0.760127,0.099005,0.021595,0,0.948448,0.810535,0.341457,3.496102,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.557487,3.76888,3.804985,0.037175,1.007364,0,0,0,0,0.907986,0.888467,0,0.243745,0.403253,0.450165,0.322976,0.47375,0.538311,0,0.347261,0.194663,0,1.477274,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.112035,0.326807,0.89908,0.051368,0,0,0,0,0,0.109941,0.663206,0,0.509484,0.479816,0.00275,0.491919,0.10853,0.003035,0,0.959855,0.387351,0,0.059603,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',2.310397,1.017174,1.452448,0,0,0,0,0,0,0.536088,0.717688,0,0.158203,0.078778,0.001109,0.437335,0.945035,0.18165,0,0.120385,1.775555,0,0.754897,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.600942,3.646913,3.183364,0.01239,0.461471,0,0,0,0,0.627327,0.828585,0,0.077557,0.497331,0,0,0.588175,0.623734,0,0.370277,0.249615,0,0.936635,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.278025,0.271751,0.127383,0,0,0,0,0,0,2.686646,2.493781,0,1.536236,9.940881,0.24621,0.595809,0.772102,0.045338,0,0.961962,1.030304,0,0.010559,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',2.927782,1.478477,1.83253,0,0,0,0,0,0,0.958702,0.889209,0,0.175101,0.0245,0.002375,0.272298,0.418247,0.72135,0,0.123704,1.168078,0,0.817784,No,No,No,No,five,five
+'UML Model.Logical View.CellOrigin',1.846853,0.098532,0.365077,0,0,0,0,0,0,3.878118,3.426021,0,4.491191,17.309218,0.001031,0.914008,0.755679,0.288277,0,0.446414,0.370598,0,0,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',1.753787,0.171489,1.068387,0,0,0,0,0,0,3.431658,1.70798,0,2.903221,16.584302,0.000323,0.208926,0.588964,0.83403,0,0.589668,0.76781,0,0.149616,No,No,No,No,two,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.220302,3.573306,3.309463,0.0026,0.177519,0,0,0,0,1,1,0,0.011788,0.178256,0,0,0.624725,0.834728,0,0.304185,0.631839,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.527561,3.885725,3.685812,0.046858,0.634029,0,0,0,0,1,1,0,0.147882,0.621393,0,0,0.610514,0.652245,0,0.330863,0.108983,0,1,No,No,No,No,five,five
+'UML Model.Logical View.com.cosylab.acs.laser.dao.ACSAlarmDAOImpl',3.24554,4.748669,4.695735,0.04109,1.187559,0,0,0,0,1,1,0,0.23779,0.315902,0,0,0.035621,0.050894,0,0.952148,0,0,1,No,No,No,No,five,five
+.org.neuroph.core.Neuron,5.97981,23.671942,23.990809,4.263576,7.453643,0,0,2.772015,0.850846,0,0,1.949222,0,0,0,0,1.998211,2.259555,3.778683,0,0,31.000024,3.915647,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,6.106514,36.548757,31.651886,4.564843,7.885588,0,0,13.374151,15.833807,0,0,1.368184,0,0,0,0,1.413734,1.933545,4.440831,0,0,28.934221,16.206516,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,0.462226,5.151681,4.248827,0.294378,2.301865,0,0,0.81646,0.36313,0,0,0.73421,0,0,0,0,1.975619,1.352174,0.757522,0,0.042247,2.898004,1.234991,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,1.958124,14.285233,8.343308,1.89873,4.033508,0,0,1,1,0,0,1,0,0,0,0,2,2,0.504917,0,0,18.006791,6.606852,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,3.873102,15.81826,16.431982,2,3.517984,0,0,0.353339,0.154975,0,0,0.241606,0,0,0,0,1.970622,1.863258,1.045744,0,0,29.968068,3.794758,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,1.987213,11.441167,7.334037,1.550323,3.062948,0,0,1.675948,2.483501,0,0,2.465708,0,0,0,0,1.451009,2,0.329591,0,0,10.471652,5.080898,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,18.15317,31.655675,22.016703,6.360878,15.68416,0,0,0,0,0,0,0,0,0,13.688942,2.16928,0,0,0,2.720995,5.937674,5.16593,19.251147,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,1.954345,6.319387,8.802639,0.488119,2.940738,0,0,0.450644,1.089989,0,0,0.506726,0,0,0.020859,0.760894,0.445181,0.212374,0,0.343918,0,4.184796,2.570279,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,10.537901,17.040906,15.014178,5.55493,9,0,0,0,0,0,0,0,0,0,8.498352,1.887334,0,0,0,1.537862,7.480396,2.146434,11.389672,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,19.824355,36.451759,17.849705,5.437269,16.073692,0,0,0,0,0,0,0,0,0,11.104063,2.726661,0,0,0,1.846929,6.168762,2.41674,16.552528,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,0.082686,5.196906,4.938421,0.81119,2.066849,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.384619,0.948248,0.547615,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0.899625,3.27577,2.991439,0,0.107704,0,0,0,0,0.253077,0.363674,0,0,0.080636,0,0,0,0,0,0,0.198217,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.756646,0.764848,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.813699,0.861137,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.152221,0.616814,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.210315,0.263227,0,0,0,0,0,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,5.801847,7.722323,17.247084,2.897533,1.50148,0,0,?,0,0.862581,0,0,0,0,0,0,?,0.849638,0.469809,0,0,8.804434,0.67703,No,No,No,No,five,two
+.org.neuroph.core.Neuron,1.703034,3.802973,5.174498,4.605876,1.324687,0,0,?,0.718266,0.511628,0,0.119416,0,0,0,0,?,1.325192,0.400732,0,0,0.349365,1.251912,No,No,No,No,five,two
+.org.neuroph.core.Neuron,7.36443,7.377539,13.20986,10.036288,2.377699,0,0,?,0.092116,0.573535,0,0.839862,0,0,0,0,?,0.355723,0,0,0,8.670422,6.581912,No,No,No,No,five,two
+.org.neuroph.core.Neuron,7.805899,6.749391,26.813329,4.960233,2.868813,0,0,?,0,0.838969,0,0,0,0,0,0,?,0.06941,0.371489,0,0,23.092111,1.520919,No,No,No,No,five,two
+.org.neuroph.core.Neuron,3.188699,12.078139,11.254062,4.82678,3.725127,0,0,?,0.776514,0.244511,0,0.164062,0,0,0,0,?,1.423122,0,0,0,20.055733,2.521324,No,No,No,No,five,two
+.org.neuroph.core.Neuron,3.875464,3.828782,3.794273,2.228481,1.637901,0,0,?,0,0.611541,0,0,0,0,0,0,?,0.152985,0.610948,0,0,1.924893,1.354166,No,No,No,No,five,two
+.org.neuroph.core.Neuron,2,5.24057,6.636184,2,4.380257,0,0,?,0.182854,0.621263,0,0.619286,0,0,0,0,?,0.382802,0,0,0,0.94014,2.784768,No,No,No,No,five,two
+.org.neuroph.core.Neuron,5.0816,11.986124,18.101809,5.674294,10.785599,0,0,?,2.781674,0.611731,0,0.170264,0,0,0,0,?,0.689708,1.604792,0,0,10.107305,6.539802,No,No,No,No,five,two
+.org.neuroph.core.Neuron,1.989435,0.490153,3.959658,1.98949,0.433362,0,0,?,0.213767,0.440087,0,0.736533,0,0,0,0,?,0.174919,0.667299,0,0,3.47755,1.739921,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.873729,2.725964,15.590564,5.636074,2.23984,0,0,?,0.438728,0.984153,0,0.203978,0,0,0,0,?,0.707252,0.508508,0,0,2.038765,0.608247,No,No,No,No,five,two
+.org.neuroph.core.Neuron,7.036628,9.363767,35.028031,13.705408,1.539104,0,0,?,13.871854,0.133955,0,0.246536,0,0,0,0,?,1.212908,2.345864,0,0,6.334275,6.443509,No,No,No,No,five,two
+.org.neuroph.core.Neuron,4.408001,20.434581,22.381691,4.578382,5.646526,0,0,1.099637,0.45185,0,0,1.637448,0,0,0.334632,0.442076,1.859271,1.477555,3.247827,0.117551,0.167952,28.446539,10.39791,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,21.403697,37.120976,30.219979,5.321852,15.724047,0,0,3.462322,5.123478,0,0,0.164907,0,0,11.721211,1.31777,0.201832,1.017831,0.138954,2.098917,4.72828,2.89396,22.516342,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0.049605,4,4,0,1.304147,0,0,0.705503,0.283617,0,0,0.191925,0,0,0,0,1.51378,1.048558,0.514314,0,0,1.102609,0.192527,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,1.789306,9.10186,7.773524,1.398052,3.526306,0,0,0.620543,0.061377,0,0,0.933591,0,0,0.012842,0.619185,0.818504,1.462902,0.658588,0.162909,0,11.395635,2.253015,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,3.916088,13.515607,16.297014,1.648499,3,0,0,0,0,0,0,0,0,0,1.748905,0.197981,0.359783,0.621946,2.408993,0.648465,0,30.13491,2.082012,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,0.701101,4.092611,6.104005,0.000006,2.861896,0,0,0.172387,0.803934,0,0,1.603176,0,0,0,0,1,1.460273,0,0,0,1.057694,0.769988,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,7.602522,21.116183,21.952369,7.14297,6.007003,0,0,0.202918,0.066283,0,0,0.05841,0,0,3.024966,0.960299,0.487352,0.799495,0,0.47302,3.645406,9.13109,18.73235,No,No,No,Yes,five,two
+.org.neuroph.core.Connection,2.235115,5.512835,7.981228,0.569422,2.150694,0,0,0,0,0,0,0,0,0,0.01444,0.708787,0.305656,0.038822,0,0.1627,0.326165,2.473934,2.033342,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,4.258132,15.522193,10.350146,1.435135,7.725178,0,0,0,0,0,0,0,0,0,6.943755,1.043481,0,0,0,1.243104,6.496921,4.498062,8.800484,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,19.186739,38.56632,33.819801,5.319947,14.563765,0,0,4.843291,3.939054,0,0,0.481065,0,0,5.519946,1.516807,0.575912,1.497293,4.187229,0.171863,3.94646,11.42337,18.813848,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0.081258,4.101643,4.876783,0.506661,1.880636,0,0,0,0,0,0,0,0,0,0,0,0.456187,0.592892,0,0,0.196784,0.572628,0.355235,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0.42742,3.367474,3.552004,0,0.187786,0,0,0,0,0.220645,0.058696,0,0,0.011774,0,0,0.313263,0.039751,0,0,0.163659,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.536013,0.51628,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.365287,0.879954,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.370126,0.986238,0,0,0,0,0,No,No,No,Yes,five,two
+'UML Model.Logical View.Topping',0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0.330284,0.655995,0,0,0,0,0,No,No,No,Yes,five,two
+.org.neuroph.core.Neuron,2.899699,11.252762,15.309492,2.863166,2.644221,0,0,?,0.803691,0.056749,0,0.276038,0,0,0,0,?,0.948598,0.262697,0,0,20.58941,2.417475,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.244975,24.785903,28.962109,5.573256,3.272547,0,0,?,7.316625,0.160182,0,0.271977,0,0,0,0,?,1.797939,2.078559,0,0,20.129807,5.259871,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.125737,5.968857,8.245804,2.298408,3.511091,0,0,?,0.427324,0.058084,0,0.978569,0,0,0,0,?,1.701204,0.861338,0,0,8.496465,3.154671,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.662678,18.790438,25.670406,5.757726,5.864198,0,0,?,4.057275,0.267169,0,0.20501,0,0,0,0,?,0.819442,2.362946,0,0,25.055826,4.102898,No,No,No,No,five,two
+.org.neuroph.core.Neuron,4.140886,14.065473,17.314568,5.072112,4.973399,0,0,?,3.548434,0.04129,0,0.462381,0,0,0,0,?,2.111493,2.73843,0,0,29.897888,4.812419,No,No,No,No,five,two
+.org.neuroph.core.Neuron,3.036708,6.188207,5.137218,2.070673,4.262207,0,0,?,0.910473,0.474459,0,0.027848,0,0,0,0,?,1.353355,0.03829,0,0,22.698311,1.697891,No,No,No,No,five,two
+.org.neuroph.core.Neuron,1.294226,4.370767,4.848329,1.496303,4.244437,0,0,?,0.628501,0.239534,0,0.647046,0,0,0,0,?,1.329673,0.273266,0,0,4.048364,2.249768,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.943397,24.129149,21.044426,5.727535,10.850525,0,0,?,11.859504,0.123049,0,0.37657,0,0,0,0,?,1.234537,4.359071,0,0,13.231478,13.400423,No,No,No,No,five,two
+.org.neuroph.core.Neuron,2.843406,24.167697,34.768559,2.985444,0.714265,0,0,?,8.015433,0.221005,0,0.840646,0,0,0,0,?,1.039626,4.637343,0,0,20.977157,14.301239,No,No,No,No,five,two
+.org.neuroph.core.Neuron,6.668137,4.54786,16.628004,5.791075,11.312104,0,0,?,2.581914,0.414476,0,0.958788,0,0,0,0,?,3.886403,2.554539,0,0,28.609205,7.888934,No,No,No,No,five,two
+.org.neuroph.core.Neuron,2.464331,13.789108,33.703977,7.718951,4.674314,0,0,?,3.505177,0.108953,0,0.848237,0,0,0,0,?,1.845676,0.693335,0,0,24.800007,7.538589,No,No,No,No,five,two
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9.015601,15,12,0.465606,7.285197,0,0,0,0,0.072996,0.717479,0,0,0,6.275155,0.450908,0.030061,1.010969,0,0.725378,6.063588,0.999453,6.531677,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,4.276763,8.431909,6.036543,0.035861,4.414986,0,0,0,0,0,0,0,0,0,4.637671,2.350288,0,0,0,1.930448,3.777138,0.344826,6.640483,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,8.48251,5.037785,4.265155,0.637104,4.756858,0,0,0,0,0,0,0,0,0,1.361732,1.516142,0,0,0,0.397686,2.329523,0.481213,4.473274,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,12.976822,26.921449,13.110418,0,8.05069,0,0,0,0,0,0,0,0,0,7.829885,3.452535,0,0,0,1,5.247342,2.915243,12.181376,No,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,11.086476,25.231616,11.431627,2.489358,5.999041,0,0,0,0,0,0,0,0,0,13.291457,2.963443,0,0,0,0.304828,7.146313,3.423707,25.102395,No,No,No,No,five,four
+Data.javaclient2.extra.Controller,3.812535,1.23618,1,0.000817,0.061902,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.177243,0,0.715572,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,9.725226,14.287423,11.008352,2.814504,5.1776,0,0,0,0,0.255963,0.241336,0,0,0,1.896314,0,1.595126,1.054072,0,0,2.875348,0,3.874427,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,1.365306,5.52751,4.645338,1.512719,2.478676,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2.320023,5.986088,5.938377,1.968718,3.015169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.537749,0,0.71263,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2.192245,6.762316,6.18666,2.706295,3.533425,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.254184,0.587346,0,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,9.010075,13.682667,11.118589,2.711408,1.058001,0,0,0,0,0.557894,0.404911,0,0,0,2,0,1.390352,0.130782,0,0,2.285712,0,4.957059,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,5.17444,5.021425,4.727376,1,1.136979,0,0,0,0,0,0,0,0,0,7.759154,1.996387,0,0,0,1.162001,4.277018,0.231753,4.33988,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,6.155653,7.0997,4.410135,1,2.203813,0,0,0,0,0,0,0,0,0,7.587668,0.261143,0,0,0,1.099055,2.744983,0.083008,9.263441,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,1.413022,4,4,0.521826,2.565802,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.653831,2.89746,0,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,7.67567,4.665439,3.596258,0.134896,1.024171,0,0,0,0,0.472679,0.737805,0,0,0,0.859928,1.632915,0.149986,1.266439,0,0.683468,4.173194,0.167991,4.747206,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.270995,1,1,0,0.501526,0,0,0,0,0,0,0,0,0,0,0,0,2.804115,0,0.203351,0,0.480981,0,No,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.029281,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.92928,0,0,0,0,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1.782288,0.362982,0.51706,0,0.443059,0,0.011962,3.922354,2.806361,0,0,0.796022,0,0,0,0,0,0.872964,0,0.261018,1.703349,0.071929,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.005233,0.240097,0.847232,0,0,0,0,0,0,0,0,0,0,0,0.850674,0.048791,0.166165,1,0,0,0.211572,0,0,No,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.457497,1,1,0,0.756634,0,0,0,0,0,0,0,0,0,0,0,0,1.64367,0,0.618723,0,0.127298,0,No,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9.286445,15,12,0.913961,6.494299,0,0,0,0,0.277267,0.953784,0,0,0,4.673051,0.003449,1.168831,1.773736,0,0.472888,3.921689,0.787271,5.96137,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,9.359674,9.726075,1,0,0,0,0,0,0,1,1,0,0,0,0,0,2.53009,2.172186,0,0,9.11796,0,5.423791,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,8.965443,3.912923,4.283284,0,1.242475,0,0,0,0,0.641791,0.900844,0,0,0,0,0,0.480214,1.425495,0,0,5,0,4,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1.877923,1.390276,0,0,0,0,0,0,1.590944,1.133173,0,1.374426,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,9.100412,14.332567,11.959204,2.234524,6.540106,0,0,0,0,0.616022,0.712294,0,0,0,3.415685,0.004254,1.220264,1.249716,0,0.050403,4.013113,0.925158,3.499528,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,2,8.91643,6.607524,0.284726,4.449535,0,0,0,0,0,0,0,0,0,2.042649,2.911339,0,0,0,1.953056,1.657692,0.912839,6.67491,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,7.405385,5.035508,4.294619,0.839793,1.667138,0,0,0,0,0,0,0,0,0,3.967003,1.873063,0,0,0,0.567146,2.619862,0.277901,4.063345,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,11.167763,21.94336,10.806965,2.688265,3.736223,0,0,0,0,0,0,0,0,0,12.010151,1.196785,0,0,0,0.171278,4.814067,2.405292,18.482241,No,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,10.719208,24.146111,11.184049,3.396011,6.943125,0,0,0,0,0,0,0,0,0,16.36695,1.362962,0,0,0,0.941881,8.064923,3.11905,28.511519,No,No,No,No,five,four
+Data.javaclient2.extra.Controller,3.702533,1.020057,1,0.00051,0.174546,0,0,0,0,0,0,0,0,0,0,0,0,0.075027,0,0.975052,0,0.39612,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,10.086371,9.226122,11.249556,2.769473,2.569399,0,0,0,0,0.095717,0.533625,0,0,0,2.678788,0.485002,1.58113,0.042153,0,0.828849,2.053768,0.250145,4.427482,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1.542779,2.883182,0.040194,1.338543,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.813789,0,0.960124,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2,6,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2.04431,5.98376,5.678657,1.529418,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.22732,0.161604,0,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,3.266599,7.318931,7.931005,2.978147,4.039864,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.605041,0,0.072115,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,9.309233,14.978552,11.920494,1.004421,3.85917,0,0,0,0,0.755356,0.776412,0,0,0,2,0,1.981592,0.990247,0,0,2.950503,0,3.743416,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.SkillManager,5.739734,5.580625,6.213758,0.156515,3.649723,0,0,0,0,0,0,0,0,0,2.582464,0.008804,0,0,0,0.173352,4.476988,0,3.739698,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,8.740628,13.739052,11.953922,0.723576,5.613895,0,0,0,0,0.102944,0.419931,0,0,0,7.608375,0.085158,0.011723,0.929859,0,0.794317,4.592477,0.746064,8.846435,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,3.833682,2.234565,1.577932,0.890493,0.511543,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.463067,1.903103,0,0,Yes,No,No,No,five,four
+Data.javaclient2.extra.Controller,2.770392,5.801167,5.372953,1.547653,3.088032,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.390988,1.501613,0,0.659415,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.945233,1,1,0,0.89017,0,0,0,0,0.106615,0.165105,0,0,0.101163,0,0,0,0,0,0.570808,0,0.962267,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.9818,1,1,0,0.668465,0,0,0,0,0,0,0,0,0,0,0,0,0.103905,0,0.796025,0,0.736479,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.587593,0.532778,0.86568,0,0.93085,0,0,0,0,0,0,0,0,0,0.275873,0.04499,0.048136,2.51751,0,0.10071,0.120863,0.134882,0,No,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.905607,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1.048387,1.052983,0,0,0,0,0,0,1.315954,1.002612,0,0.005805,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.150959,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.096068,0,0,0,0,0,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1,1,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0.458638,0,0,0,0,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',1.482842,0.585106,0.945237,0,0.708005,0,0.002895,0.526274,1.61097,0,0,0.259274,0,0,0,0,0,0.547475,0,0.990974,0.538292,0.512273,0,Yes,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.003555,0.411779,0.921169,0,0,0,0,0,0,0,0,0,0,0,0.801533,0.024352,0.036474,1.344141,0,0,0.204511,0,0,No,No,No,No,five,four
+'UML Model.Logical View.cl.utfsm.acs.acg.core.AlarmsManager',0.898729,1,1,0,0.905749,0,0,0,0,0,0,0,0,0,0,0,0,0.55658,0,0.966967,0,0.905433,0,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.ai.task.TaskManager,6.489009,13.897801,11.995286,0.713178,6.12013,0,0,0,0,0.000871,0.213827,0,0,0,7.5925,0.08976,0.054578,0.237357,0,0.765003,4.760865,0.36336,9.276322,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,12,9.869661,1.905142,0.135413,0.112169,0,0,0,0,0.798647,0.617509,0,0,0,0.153336,1.594449,2.574239,2.203283,0,0.431095,9.551014,0.236756,7.638661,Yes,No,No,No,five,four
+Data.org.mars_sim.msp.core.person.NaturalAttributeManager,8.312034,4.751179,4.194261,1.245961,3.487235,0,0,0,0,0.308427,0.042914,0,0,0,1.785563,1.586513,0.248894,0.220689,0,0.230601,3.829343,0.065364,4.807537,Yes,No,No,No,five,four
+'UML.Logical View.taxistation.controller.concrete.FindCarController',0,1.453788,1.121258,0,0,0,0,0,0,1.387124,1.011158,0,0.634905,2,0,0,0,0,0,0,0,0,0,Yes,No,No,No,five,four
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.010095,4.498022,1.002626,0,1.010302,0,0,0,0,0,0,0,0,0,7.290801,7.361207,0,0,0,3.31931,1.405393,7.000047,10,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,0.768047,6.715955,3.481728,0,2,0,0,0,0,0,0,0,0,0,5.238354,9.782398,0,0,0,4.076654,1.222862,9,9.041288,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.580055,0.155693,0.989303,0.819505,0,0.151878,0,0,0,0.877683,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,2,1.13846,4,1,0,0,0,0,0,0.997783,0,0,0,0,0.262179,0.400049,0,0,0,0.233605,0.049028,0,0.848425,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,1.063449,1.40913,1.715991,1.474209,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,1,0.472359,5.4277,2.000817,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePreProcessor,10.628677,3.696224,67.489572,5.53626,0,0.358556,0,0,0,0.744037,0,0,0,0,4.073103,0,0,0,0,0,3.486167,0,0.108838,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.365306,0.763755,5.354662,1.487281,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.845967,0.173484,0.002025,1.489014,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.javaclient2.Position2DInterface,5.506656,23.409753,11.003379,8.222217,6.189481,0.33254,0,0,0,0,0,0,0,0,4.723748,0.318474,0,0,0,0,2.385793,0.555401,3.565708,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.966925,4.398969,2.407631,0,1.066849,0,0,0,0,0,0,0,0,0,3.72445,8.176245,0,0,0,4.148507,0.871794,8.896495,7.809541,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.893352,2.98764,4.10814,0.621067,0,0,0,0.625682,0.025017,0.562817,0,0.663414,0,0,0.362441,0.78519,0,0,0,0.283508,0.396434,0,1.76072,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,6.120459,5.567033,4.629004,0.934146,1.309886,0,0,0,0,0,0,0,0,0,7.10612,0.014221,0,0,0,0.185284,6,0,2.845563,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,7.507496,5.040789,4,1,0,0,0,0,0,0,0,0,0,0,5.408211,0.129873,0,0,0,0.916763,4.478592,0,2,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.619533,0.201196,0.417877,0,0,0,1,9.50955,33.911523,0.320861,1.434307,3.345985,0.768425,5.925871,0,0,1.512629,1.305719,0,0.692338,1,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.519845,0,0,0,0,0,0.988454,2.792581,13.256436,0.903814,0.665827,3.442987,1.495115,6.110292,0,0,1.720242,0.822673,0,1.278565,0.589545,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractPlate',1,0.859645,0.831932,0,0,0,0.11727,1.498381,1.743381,3.995433,3.190245,1,2.782069,21.287664,0,0.905831,0.59477,0.702122,0,1,1,0.282854,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',2,0,0,0,0,0,0,3,3,2.725162,2.386098,1,1.760933,7.167671,0,0,2.609705,2.699276,0,1.434852,2,0.275139,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.88626,0,0,0,0,0,0.995136,1.030489,17.65007,0.761493,0.604362,3.97148,0.983699,3.011706,0,0,1.598851,1.121933,0,1,0.37956,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractAnnotationInstance',1.383174,0.491836,0.850822,0,0,0,0,3,3.276348,0.573535,0.789715,1.839862,0.999737,1.010613,0,0,2.955811,2.822139,0,1,1.819678,1,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',2.000373,0,0,0,0,0,0,1.295171,1.180577,2.922207,2.753871,1,1.412986,4.719546,0,0,0,0,0,1,1,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractPlate',1,0.208704,0.535134,0,0,0,0,0.879717,0.776514,3.489021,3.700497,0.164062,2.052583,21.796464,1.850128,0.962552,0,0,0,0.551488,0.480275,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',2.124536,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0.969756,0.570919,0.120306,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',2.239316,0.146787,0.26558,0,0.438458,0,0,2.093573,3.750936,2.843863,2.083017,1.380714,1.667702,9.068737,0,0,0.274203,0.191401,0,1.070241,1.026667,0,0.117836,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.986683,6.08053,6.998848,0.545327,0.384317,0,0.275352,2.373997,2.380983,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,4.833075,0,0,0,0,0.947744,0,0.395419,0.371457,0,0,0.647184,0,0,0,0,0,0,0,0.819062,0.492952,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,8.317837,0,0,1.409018,0,0.828764,0,0,0,0,0,0,0,0,0,0,0,0,0,0.234671,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.817366,1.821106,5.11738,1.016572,0,0.227652,0,0,0,0.866045,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2,0.307527,2.333101,1,0,0.402028,0,0,0,0.300666,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,2.483252,5.005923,4.586155,0.095537,0.100621,0,0.056761,2.178056,2.247474,0,0,1,0,0,0,1.882536,0,0,0,0,1.55993,0.450868,0.329707,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,4.549183,0,0,0,0,0.168797,0,0,0,0,0,0,0,0,0,0,0,0,0,0.941235,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',2,0,0,0,0,0,0,2,2.594932,0,0,1.99559,0,0,0,0,0,0,0,0.775621,0,0.060319,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractWell',2,0,0,0,0,0,0,2,2.009278,0,0,1.7003,0,0,0,0,0,0,0,0.121779,0,0.726573,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',0.373916,1,1,0,0.999582,0,0,1.275429,1.5569,0,0,1,0,0,0,0,1,1,0,0.417459,0.543061,0,0.600076,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.174348,2.707628,3.931347,0.909028,0,0,0,1.402477,1.854704,0,0,1,0,0,0,0,2.035412,2.883338,0,0.150223,0.494374,0.248371,0.624882,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0.258865,1.93974,1.959905,0,0.112859,0,0,2,2,0,0,1,0,0,0,0,1,1,0,1,0.108722,0,0.866156,No,No,No,No,five,six
+'UML Model.Logical View.Employee',1,1,1,0,0.21247,0,0,2.231155,5.334199,0,0,1.949926,0,0,0,0,1.407246,1.086253,0,1,1,0.691719,0.46728,No,No,No,Yes,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0,1,1,0,0.893213,0,0,1.01613,1.009147,0,0,1,0,0,0,0,1,1,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0,2.674738,1.008628,0,0.969534,0,0,1.980573,1.375361,0,0,1,0,0,0,0,0.677501,0.365192,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.135876,2.873377,2.444193,0.025127,0,0,0,0.720657,0.869748,0.008852,0,0.866395,0,0,0,0,0.651007,0.024571,0,0.245239,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.021421,1.639106,5.780298,0.164974,0.70122,0,0,?,0,0.021241,0,0,0,0,0.650043,8.816811,?,0,0,1.834234,2.493297,8.191755,8.408817,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.049052,1.192755,3.644519,0.837915,1.828424,0,0,?,0,0.483615,0,0,0,0,4.288285,0.349926,?,0,0,3.243164,2.001947,2.596095,5.549541,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.255973,5.081849,2.546224,0,1.759282,0,0,?,0,0.942365,0,0,0,0,0.3315,4.899971,?,0,0,2.675351,2.280399,3.140935,2.785471,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.819278,0.622278,3.870014,0.96142,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,0.464322,0.970385,1,0.996436,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2,1,4.413191,1.96171,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.572383,4.980782,5.374041,0,0.402645,0,0,?,0,0,0,0,0,0,1.702095,6.285332,?,0,0,2.137913,0.534775,7.221882,2.393085,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.709945,5.786041,2.371045,0,1.019291,0,0,0.512402,0.011835,0,0,0.468078,0,0,6.740054,8.274695,0,0,0,3.698739,2.277787,6.948776,9.372528,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,3.249576,5.68219,2.50296,0,1.034645,0,0,0.358565,0.006043,0,0,0.485004,0,0,5.09434,8.274978,0,0,0,3.727702,2.429443,6.04337,9.450728,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2,0.8935,1.765113,1,0,0.079087,0,0,0,0.418761,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.439657,0.989865,4.924376,1.82989,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,1.705774,1.298868,2.13547,2.141523,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.027661,2.869986,3.983432,0.002049,0,0,0,0.673686,0.970957,0.151568,0,0.779745,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePreProcessor,5.556764,15.167933,26.613148,7.303793,0.186087,0,0,0,0,0.502184,0,0,0,0,1.6215,0.922086,0,0,0,0,1.142526,0.813086,6.1802,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.705948,2.329917,4.922518,0.560526,0,0,0,0.654945,0.792899,0.554483,0,0.464091,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.056009,0.874644,0.160727,1.139325,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.javaclient2.Position2DInterface,5.369941,17.510967,6.026506,1.326466,4.062378,0,0,0,0,0,0,0,0,0,3.921144,1,0,0,0,0.727835,4.148736,0.156302,3.332533,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.474068,6.173565,3.573115,0.165791,0.908453,0,0,0.435488,0.553985,0,0,0.768641,0,0,1.516723,6.767756,1.169358,0.29204,0,3.793862,2.430752,7.962784,4.388316,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.372279,1.730362,4.398669,0.993184,0,0,0,0.297882,0.582033,0.461996,0,0.047726,0,0,0.327235,0.523954,0,0,0,0.244876,0.245014,0,0.463814,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,6.640817,4.31044,6.62789,0.954185,0.869194,0.313707,0,0,0,0,0,0,0,0,5.868641,0.794879,0,0,0,0.013076,4.096854,0,2.238015,No,No,No,No,five,six
+Data.brain.gui.charts.AbstractChartingTool,7.888473,4.515001,5.487961,1,0,0.347497,0,0,0,0,0,0,0,0,4.743905,0,0,0,0,0,3.794049,0,1.827853,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.849103,0.849029,0.952015,0,0,0,0.911246,2.896865,30.479325,0.422014,0.272514,3.215622,0.288323,1.834111,0,0,1.365602,1.22283,0,0.862746,0.656988,0.012494,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',1.962631,0,0,0,0,0,0.523617,3.427997,7.050822,0.003064,0.098595,2.115338,0.904579,1.522645,0,0,0.105622,0.039907,0,1.184531,0.28764,0,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractPlate',1.080107,0.555647,0.57993,0,0,0,0.009646,1.573851,2.178397,3.603723,3.449798,0.855236,2.14798,20.944895,1.58611,0.769363,0.267474,0.629002,0,1.011413,0.973101,0.064163,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',2.158402,0.332371,0.658681,0,0.131723,0,0,2.008892,2.997346,2.801881,2.956132,1.832117,1.994491,5.289284,0,0,0.518297,0.154816,0,1.105848,1.029646,0,0.30762,No,No,No,No,five,six
+'UML Model.Logical View.AbstractBaseObject',1.987462,0,0,0,0,0,0.173758,1.278741,13.13706,0.011911,0.008917,2.751526,0.042411,0.417652,0,0,0.484728,0.020942,0,1,0.130048,0,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractAnnotationInstance',0.751057,0.504451,0.875065,0,0.247783,0,0,2.848768,4.93049,0.028075,0.619151,1.298128,0.372019,0.496894,0,0,2.488557,1.781421,0,0.750802,1.478653,0.688833,0,No,No,No,Yes,five,six
+'UML Model.Logical View.AbstractWell',2.977737,0,0,0,0,0,0,1.69677,1.734715,1.664871,1.181243,1,0.598571,1.637616,0,0,0,0,0,1,1,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractPlate',1.474324,0.624953,0.814155,0,0,0,0.209087,2.399578,2.004348,3.877769,3.74692,0.725862,3.59555,22.955166,1.765792,0.973993,0.498645,0.989854,0,1.029808,0.963446,0.631186,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,3.8155,0,0,0,0,0.78925,0,1.281534,1.811008,0,0,0.991308,0,0,0,0,0,0,0,0.973257,0.639346,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractSample',1.75816,0,0,0,0,0,0,1.674162,1.401187,2.740605,2.594995,1.181308,0.891958,9.112221,0,0,0,0,0,1,1,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,1.353297,3.239839,4.630021,0.32535,0.078901,0,0.06156,1.244439,1.292542,0,0,1,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2.572253,0.608045,0.964732,0.731709,0,0.07483,0,0,0,0.978067,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,5.259367,0,0,1.386362,0,0.994339,0,0,0,0,0,0,0,0,0,0,0,0,0,0.263994,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,2.002668,1.556992,4.121629,1,0,0.209786,0,0,0,0.767602,0,0,0,0,0.272998,0.652567,0,0,0,0.048653,0.117704,0,0.365875,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,2,0.444146,1.252079,1,0,0.27754,0,0,0,0.812944,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',1.168337,0.453971,1.196655,0,0.001393,0,0,2.081422,2.138457,0,0,1,0,0,0,1.260178,0.74028,0.808527,0,0.103531,1.415777,0.943389,0.540873,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,3.535938,0.041495,0.894978,0.446241,0,0.476354,0,0,0,0.00018,0,0,0,0,0,0,0,0,0,0.459515,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',1.114993,0.389802,0.175576,0,0.472217,0,0,2,2.093619,0,0,1.581305,0,0,0,0,0.19164,0.730624,0,0.526387,0.705997,0.082203,0.983736,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',2.865561,0.100216,0.01843,0,0.083545,0,0,2,2,0,0,1,0,0,0,0,0.207431,0.075292,0,0.372425,0.69057,0.300468,0.620187,No,No,No,No,five,six
+'UML Model.Logical View.AbstractWell',2.224092,0.060824,0.21311,0,0.848488,0,0,2,2.20063,0,0,1.614117,0,0,0,0,0.164966,0.102669,0,0.630102,0.155371,0.168433,0.133629,No,No,No,No,five,six
+Data.ro.isdc.wro.model.resource.processor.ResourcePostProcessor,0.071654,2.140645,2.474709,0.059753,0,0,0,1.756325,1.959914,0,0,1,0,0,0,0,1.265238,1.164152,0,0.771343,0.010828,0.015355,0.303191,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0.151155,2.511969,1.264289,0.268236,0.161764,0,0,1.773905,0.814427,0.067552,0,0.655489,0,0,0,0,0.578476,0.210866,0,0.116227,0,0,0,No,No,No,No,five,six
+'UML Model.Logical View.Employee',0.075618,1,1,0,0.548737,0,0,2.120066,5.26148,0,0,1.771619,0,0,0,0,1.191611,1.029117,0,0.596724,0.58135,0.637713,0,No,No,No,Yes,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0,1.642214,1.009074,0,0.900175,0,0,1.361852,1.180333,0,0,1,0,0,0,0,0.561442,0.94726,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.manager.WroManagerFactory,0,1.621456,1.079219,0,0.554333,0,0,1.279913,1.116415,0,0,1,0,0,0,0,0.78509,0.213143,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.factory.WroModelFactory,0.695771,2.823017,2.136113,0.571127,0,0,0,0.101807,0.062972,0.449076,0,0.531074,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.00761,1.93228,4.068659,0.005206,0.177754,0,0,?,0,0.002975,0,0,0,0,3.652173,6.761924,?,0,0,1.328777,2.399116,7.997609,9.971812,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.746953,1.92392,2.931177,1.328282,0.350216,0,0,?,0,0.734406,0,0,0,0,4.179007,0.185094,?,0,0,1.273343,0.082598,1.376605,1.652993,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.184705,4.836131,2.105845,1.130106,0.99808,0,0,?,0,0.996753,0,0,0,0,0.200455,4.597005,?,0,0,0.92471,1.889745,0.006199,1.623925,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.053366,1.311284,3.73491,0.412866,0.364971,0,0,?,0,0.596831,0,0,0,0,0.941157,6.521425,?,0,0,0.831608,1.140384,7.396093,9.861546,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.713459,0.984948,1,0.998506,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,1.347314,1.210145,4.107961,1.991702,0,0,0,?,0,1,0,0,0,0,0,0,?,0,0,0,0,0,0,No,No,No,No,five,six
+Data.ro.isdc.wro.model.group.processor.GroupsProcessor,2.644271,5.463974,5.254336,0,1.450714,0,0,?,0,0,0,0,0,0,7.717878,7.085966,?,0,0,3.684001,1.224749,8.285185,4.232078,No,No,No,No,five,six
